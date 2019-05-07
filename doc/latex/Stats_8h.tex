@@ -1,0 +1,101 @@
+\hypertarget{Stats_8h}{}\section{Référence du fichier /home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\+Stats.h}
+\label{Stats_8h}\index{/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\+Stats.\+h@{/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\+Stats.\+h}}
+
+
+Fichier en-\/tête des statistiques d\textquotesingle{}une entité (un \mbox{\hyperlink{classJoueur}{Joueur}} ou un \mbox{\hyperlink{classEnnemi}{Ennemi}})  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}Type\+Ennemi.\+h\char`\"{}}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structStats}{Stats}}
+\begin{DoxyCompactList}\small\item\em Comprend les statistiques d\textquotesingle{}une entité (\mbox{\hyperlink{classEnnemi}{Ennemi}} ou \mbox{\hyperlink{classJoueur}{Joueur}}) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespacestd}{std}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{Stats_8h_a4b70916bdf28ed7afd94e4fb98230a90}{M\+A\+X\+\_\+\+B\+U\+FF}}~8
+\item 
+\#define \mbox{\hyperlink{Stats_8h_ade73e3f89d1fb55596d2c55647b13150}{M\+I\+N\+\_\+\+B\+U\+FF}}~-\/4
+\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{Stats_8h_a494962dbe670972b5d4e235047f1d2df}{initialiser\+Stats}} (\mbox{\hyperlink{structStats}{Stats}} \&s, const string \&nom\+Type)
+\begin{DoxyCompactList}\small\item\em Procédure\+: initialise les statistiques du joueur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Stats_8h_a50aca916cb1a54e62d1eb29c19e33843}{initialiser\+Stats}} (\mbox{\hyperlink{structStats}{Stats}} \&s, const \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}} \&t, const unsigned int niveau)
+\begin{DoxyCompactList}\small\item\em Procédure\+: initialise les statistiques d\textquotesingle{}un ennemi. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Fichier en-\/tête des statistiques d\textquotesingle{}une entité (un \mbox{\hyperlink{classJoueur}{Joueur}} ou un \mbox{\hyperlink{classEnnemi}{Ennemi}}) 
+
+\begin{DoxyAuthor}{Auteur}
+J. Grosjean, Y. Hamdi, H. Messina 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+22/03/2019 
+\end{DoxyDate}
+
+
+\subsection{Documentation des macros}
+\mbox{\Hypertarget{Stats_8h_a4b70916bdf28ed7afd94e4fb98230a90}\label{Stats_8h_a4b70916bdf28ed7afd94e4fb98230a90}} 
+\index{Stats.\+h@{Stats.\+h}!M\+A\+X\+\_\+\+B\+U\+FF@{M\+A\+X\+\_\+\+B\+U\+FF}}
+\index{M\+A\+X\+\_\+\+B\+U\+FF@{M\+A\+X\+\_\+\+B\+U\+FF}!Stats.\+h@{Stats.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+B\+U\+FF}{MAX\_BUFF}}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+\+B\+U\+FF~8}
+
+Plus haut bonus applicable \mbox{\Hypertarget{Stats_8h_ade73e3f89d1fb55596d2c55647b13150}\label{Stats_8h_ade73e3f89d1fb55596d2c55647b13150}} 
+\index{Stats.\+h@{Stats.\+h}!M\+I\+N\+\_\+\+B\+U\+FF@{M\+I\+N\+\_\+\+B\+U\+FF}}
+\index{M\+I\+N\+\_\+\+B\+U\+FF@{M\+I\+N\+\_\+\+B\+U\+FF}!Stats.\+h@{Stats.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+B\+U\+FF}{MIN\_BUFF}}
+{\footnotesize\ttfamily \#define M\+I\+N\+\_\+\+B\+U\+FF~-\/4}
+
+Plus bas malus applicable 
+
+\subsection{Documentation des fonctions}
+\mbox{\Hypertarget{Stats_8h_a494962dbe670972b5d4e235047f1d2df}\label{Stats_8h_a494962dbe670972b5d4e235047f1d2df}} 
+\index{Stats.\+h@{Stats.\+h}!initialiser\+Stats@{initialiser\+Stats}}
+\index{initialiser\+Stats@{initialiser\+Stats}!Stats.\+h@{Stats.\+h}}
+\subsubsection{\texorpdfstring{initialiser\+Stats()}{initialiserStats()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void initialiser\+Stats (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structStats}{Stats}} \&}]{s,  }\item[{const string \&}]{nom\+Type }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: initialise les statistiques du joueur. 
+
+Initialise les statistiques {\itshape s} à partir des infos de {\itshape nom\+Type} 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in,out}  & {\em s} & un \mbox{\hyperlink{structStats}{Stats}} \\
+\hline
+\mbox{\tt in}  & {\em nom\+Type} & un string \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{Stats_8h_a50aca916cb1a54e62d1eb29c19e33843}\label{Stats_8h_a50aca916cb1a54e62d1eb29c19e33843}} 
+\index{Stats.\+h@{Stats.\+h}!initialiser\+Stats@{initialiser\+Stats}}
+\index{initialiser\+Stats@{initialiser\+Stats}!Stats.\+h@{Stats.\+h}}
+\subsubsection{\texorpdfstring{initialiser\+Stats()}{initialiserStats()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void initialiser\+Stats (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structStats}{Stats}} \&}]{s,  }\item[{const \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}} \&}]{t,  }\item[{const unsigned int}]{niveau }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: initialise les statistiques d\textquotesingle{}un ennemi. 
+
+Initialise les statistiques {\itshape s} d\textquotesingle{}un ennmi à partir de son type {\itshape t} et de son niveau {\itshape niveau} 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in,out}  & {\em s} & un \mbox{\hyperlink{structStats}{Stats}} \\
+\hline
+\mbox{\tt in}  & {\em t} & un \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}}, la référence du type de l\textquotesingle{}ennemi (pour initialiser les bonnes statistiques) \\
+\hline
+\mbox{\tt in}  & {\em niveau} & un unsigned int, niveau de l\textquotesingle{}ennemi \\
+\hline
+\end{DoxyParams}

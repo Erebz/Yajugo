@@ -1,0 +1,277 @@
+\hypertarget{classEtage}{}\section{Référence de la classe Etage}
+\label{classEtage}\index{Etage@{Etage}}
+
+
+La classe \mbox{\hyperlink{classEtage}{Etage}} qui contient des \mbox{\hyperlink{structCase}{Case}}.  
+
+
+
+
+{\ttfamily \#include $<$Etage.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEtage_a2d0d40584e7e995f60ddda571cd79415}{Etage}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEtage_af82cb811cba52811c621130b24383a28}{Etage}} (const \mbox{\hyperlink{structInfosEtage}{Infos\+Etage}} \&infos, const \mbox{\hyperlink{structListeCases}{Liste\+Cases}} \&lc, const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&lcomp, const \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} \&lt, const \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \&lo, unsigned int id\+Etage)
+\begin{DoxyCompactList}\small\item\em Constructeur par copie de la classe étage. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEtage_a372b6a1b5b5f0ebf48e62b09352d239a}\label{classEtage_a372b6a1b5b5f0ebf48e62b09352d239a}} 
+\mbox{\hyperlink{classEtage_a372b6a1b5b5f0ebf48e62b09352d239a}{$\sim$\+Etage}} ()
+\begin{DoxyCompactList}\small\item\em Déstructeur de la classe \mbox{\hyperlink{classEtage}{Etage}}. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classEtage_a7edb87ab5d81a15170217960d08bc310}{get\+TailleX}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la largeur de l\textquotesingle{}étage. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classEtage_aedda7013ef98a6f05c717361ea684724}{get\+TailleY}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la longueur de l\textquotesingle{}étage. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structCase}{Case}} \& \mbox{\hyperlink{classEtage_aa0845897f1e30d2e1190bcf5e9c587f5}{get\+Case}} (const unsigned int x, const unsigned int y) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la case demandée. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEtage_a511bd4eb7731939a549956da943e4a4d}{ajouter\+Objet\+Case}} (const unsigned int x, const unsigned int y, \mbox{\hyperlink{structObjet}{Objet}} $\ast$obj)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Ajoute un objet dans une case. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEtage_a6a14519a624e9cd4344db1fe8f32843b}{retirer\+Objet\+Case}} (const unsigned int x, const unsigned int y)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Retire à une case l\textquotesingle{}objet qu\textquotesingle{}elle contient. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classEtage_a94fadf180dbb582505f45b4028b26e13}{get\+Nb\+Ennemis}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nombre d\textquotesingle{}ennemis dans l\textquotesingle{}étage actif. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classEnnemi}{Ennemi}} \& \mbox{\hyperlink{classEtage_ac58fe7dbff45182fb598721adf679c0a}{get\+Ennemi}} (const unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne l\textquotesingle{}ennemi demandé. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEnnemi}{Ennemi}} \& \mbox{\hyperlink{classEtage_a3c7f9414f1392dff9d2a5e7fcaf0d1cd}{get\+Ennemi\+Original}} (const unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne l\textquotesingle{}ennemi désiré \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEtage_a68d7621769f9c9668a33f7b56ca7a092}{retirer\+Ieme\+Ennemi}} (const unsigned int i)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Supprime un ennemi de l\textquotesingle{}étage. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classEtage_aab5719b8d6ae5a06b7aa39136bd5e03a}{case\+Disponible}} (const unsigned int x, const unsigned int y) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Indique si la case est libre. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classEtage}{Etage}} \& \mbox{\hyperlink{classEtage_abc5f691a5a4dd0fd15e308ade202783f}{operator=}} (const \mbox{\hyperlink{classEtage}{Etage}} \&etage)
+\begin{DoxyCompactList}\small\item\em Opérateur\+: Surcharge de l\textquotesingle{}opérateur =. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \mbox{\hyperlink{classEtage}{Etage}} qui contient des \mbox{\hyperlink{structCase}{Case}}. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classEtage_a2d0d40584e7e995f60ddda571cd79415}\label{classEtage_a2d0d40584e7e995f60ddda571cd79415}} 
+\index{Etage@{Etage}!Etage@{Etage}}
+\index{Etage@{Etage}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{Etage()}{Etage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Etage\+::\+Etage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+Constructeur par défaut de la classe \mbox{\hyperlink{classEtage}{Etage}} \mbox{\Hypertarget{classEtage_af82cb811cba52811c621130b24383a28}\label{classEtage_af82cb811cba52811c621130b24383a28}} 
+\index{Etage@{Etage}!Etage@{Etage}}
+\index{Etage@{Etage}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{Etage()}{Etage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Etage\+::\+Etage (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structInfosEtage}{Infos\+Etage}} \&}]{infos,  }\item[{const \mbox{\hyperlink{structListeCases}{Liste\+Cases}} \&}]{lc,  }\item[{const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&}]{lcomp,  }\item[{const \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} \&}]{lt,  }\item[{const \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \&}]{lo,  }\item[{unsigned int}]{id\+Etage }\end{DoxyParamCaption})}
+
+
+
+Constructeur par copie de la classe étage. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em lc} & un \mbox{\hyperlink{structListeCases}{Liste\+Cases}} \\
+\hline
+\mbox{\tt in}  & {\em lcomp} & un \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \\
+\hline
+\mbox{\tt in}  & {\em lt} & un \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} \\
+\hline
+\mbox{\tt in}  & {\em lo} & un \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \\
+\hline
+\mbox{\tt in}  & {\em id\+Etage} & un unsigned int \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classEtage_a511bd4eb7731939a549956da943e4a4d}\label{classEtage_a511bd4eb7731939a549956da943e4a4d}} 
+\index{Etage@{Etage}!ajouter\+Objet\+Case@{ajouter\+Objet\+Case}}
+\index{ajouter\+Objet\+Case@{ajouter\+Objet\+Case}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{ajouter\+Objet\+Case()}{ajouterObjetCase()}}
+{\footnotesize\ttfamily void Etage\+::ajouter\+Objet\+Case (\begin{DoxyParamCaption}\item[{const unsigned int}]{x,  }\item[{const unsigned int}]{y,  }\item[{\mbox{\hyperlink{structObjet}{Objet}} $\ast$}]{obj }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Ajoute un objet dans une case. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em x} & un unsigned int, la coordonnée X de la case \\
+\hline
+\mbox{\tt in}  & {\em y} & un unsigned int, la coordonnée Y de la case \\
+\hline
+\mbox{\tt in,out}  & {\em obj} & un pointeur d\textquotesingle{}\mbox{\hyperlink{structObjet}{Objet}}, pointant vers l\textquotesingle{}objet à ajouter \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEtage_aab5719b8d6ae5a06b7aa39136bd5e03a}\label{classEtage_aab5719b8d6ae5a06b7aa39136bd5e03a}} 
+\index{Etage@{Etage}!case\+Disponible@{case\+Disponible}}
+\index{case\+Disponible@{case\+Disponible}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{case\+Disponible()}{caseDisponible()}}
+{\footnotesize\ttfamily bool Etage\+::case\+Disponible (\begin{DoxyParamCaption}\item[{const unsigned int}]{x,  }\item[{const unsigned int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Indique si la case est libre. 
+
+Retourne vrai si la case est libre, faux sinon.~\newline
+Les coordonnées (x,y) de la case vérifiée sont passées en paramètres. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em x} & un unsigned int \\
+\hline
+\mbox{\tt in}  & {\em y} & un unsigned int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un booléen 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEtage_aa0845897f1e30d2e1190bcf5e9c587f5}\label{classEtage_aa0845897f1e30d2e1190bcf5e9c587f5}} 
+\index{Etage@{Etage}!get\+Case@{get\+Case}}
+\index{get\+Case@{get\+Case}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{get\+Case()}{getCase()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structCase}{Case}} \& Etage\+::get\+Case (\begin{DoxyParamCaption}\item[{const unsigned int}]{x,  }\item[{const unsigned int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la case demandée. 
+
+
+\begin{DoxyItemize}
+\item Retourne la case se situant aux coordonnées (x,y) passées en paramètres. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em x} & un unsigned int \\
+\hline
+\mbox{\tt in}  & {\em y} & un unsigned int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{structCase}{Case}} 
+\end{DoxyReturn}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classEtage_ac58fe7dbff45182fb598721adf679c0a}\label{classEtage_ac58fe7dbff45182fb598721adf679c0a}} 
+\index{Etage@{Etage}!get\+Ennemi@{get\+Ennemi}}
+\index{get\+Ennemi@{get\+Ennemi}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{get\+Ennemi()}{getEnnemi()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classEnnemi}{Ennemi}} \& Etage\+::get\+Ennemi (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne l\textquotesingle{}ennemi demandé. 
+
+L\textquotesingle{}indice de l\textquotesingle{}ennemi à retourner est passé en paramètre. ~\newline
+L\textquotesingle{}\mbox{\hyperlink{classEnnemi}{Ennemi}} est constant et n\textquotesingle{}est pas modifiable. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classEnnemi}{Ennemi}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEtage_a3c7f9414f1392dff9d2a5e7fcaf0d1cd}\label{classEtage_a3c7f9414f1392dff9d2a5e7fcaf0d1cd}} 
+\index{Etage@{Etage}!get\+Ennemi\+Original@{get\+Ennemi\+Original}}
+\index{get\+Ennemi\+Original@{get\+Ennemi\+Original}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{get\+Ennemi\+Original()}{getEnnemiOriginal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEnnemi}{Ennemi}} \& Etage\+::get\+Ennemi\+Original (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne l\textquotesingle{}ennemi désiré 
+
+L\textquotesingle{}indice de l\textquotesingle{}ennemi à retourner est passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, l\textquotesingle{}indice de l\textquotesingle{}ennemi à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classEnnemi}{Ennemi}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEtage_a94fadf180dbb582505f45b4028b26e13}\label{classEtage_a94fadf180dbb582505f45b4028b26e13}} 
+\index{Etage@{Etage}!get\+Nb\+Ennemis@{get\+Nb\+Ennemis}}
+\index{get\+Nb\+Ennemis@{get\+Nb\+Ennemis}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{get\+Nb\+Ennemis()}{getNbEnnemis()}}
+{\footnotesize\ttfamily unsigned int Etage\+::get\+Nb\+Ennemis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nombre d\textquotesingle{}ennemis dans l\textquotesingle{}étage actif. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEtage_a7edb87ab5d81a15170217960d08bc310}\label{classEtage_a7edb87ab5d81a15170217960d08bc310}} 
+\index{Etage@{Etage}!get\+TailleX@{get\+TailleX}}
+\index{get\+TailleX@{get\+TailleX}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{get\+Taille\+X()}{getTailleX()}}
+{\footnotesize\ttfamily unsigned int Etage\+::get\+TailleX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la largeur de l\textquotesingle{}étage. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEtage_aedda7013ef98a6f05c717361ea684724}\label{classEtage_aedda7013ef98a6f05c717361ea684724}} 
+\index{Etage@{Etage}!get\+TailleY@{get\+TailleY}}
+\index{get\+TailleY@{get\+TailleY}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{get\+Taille\+Y()}{getTailleY()}}
+{\footnotesize\ttfamily unsigned int Etage\+::get\+TailleY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la longueur de l\textquotesingle{}étage. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEtage_abc5f691a5a4dd0fd15e308ade202783f}\label{classEtage_abc5f691a5a4dd0fd15e308ade202783f}} 
+\index{Etage@{Etage}!operator=@{operator=}}
+\index{operator=@{operator=}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classEtage}{Etage}} \& Etage\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classEtage}{Etage}} \&}]{etage }\end{DoxyParamCaption})}
+
+
+
+Opérateur\+: Surcharge de l\textquotesingle{}opérateur =. 
+
+Lit l\textquotesingle{}étage passé en paramètre 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em etage} & un \mbox{\hyperlink{classEtage}{Etage}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEtage_a68d7621769f9c9668a33f7b56ca7a092}\label{classEtage_a68d7621769f9c9668a33f7b56ca7a092}} 
+\index{Etage@{Etage}!retirer\+Ieme\+Ennemi@{retirer\+Ieme\+Ennemi}}
+\index{retirer\+Ieme\+Ennemi@{retirer\+Ieme\+Ennemi}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{retirer\+Ieme\+Ennemi()}{retirerIemeEnnemi()}}
+{\footnotesize\ttfamily void Etage\+::retirer\+Ieme\+Ennemi (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Supprime un ennemi de l\textquotesingle{}étage. 
+
+L\textquotesingle{}indice de l\textquotesingle{}ennemi à supprimr de l\textquotesingle{}étage est passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, indice de l\textquotesingle{}ennemi à supprimer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEtage_a6a14519a624e9cd4344db1fe8f32843b}\label{classEtage_a6a14519a624e9cd4344db1fe8f32843b}} 
+\index{Etage@{Etage}!retirer\+Objet\+Case@{retirer\+Objet\+Case}}
+\index{retirer\+Objet\+Case@{retirer\+Objet\+Case}!Etage@{Etage}}
+\subsubsection{\texorpdfstring{retirer\+Objet\+Case()}{retirerObjetCase()}}
+{\footnotesize\ttfamily void Etage\+::retirer\+Objet\+Case (\begin{DoxyParamCaption}\item[{const unsigned int}]{x,  }\item[{const unsigned int}]{y }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Retire à une case l\textquotesingle{}objet qu\textquotesingle{}elle contient. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em x} & un unsigned int, la coordonnée X de la case \\
+\hline
+\mbox{\tt in}  & {\em y} & un unsigned int, la coordonnée Y de la case \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Etage_8h}{Etage.\+h}}\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Etage_8cpp}{Etage.\+cpp}}\end{DoxyCompactItemize}

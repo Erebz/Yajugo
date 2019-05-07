@@ -1,0 +1,28 @@
+14
+[Attaque normale;Coup basique avec votre arme; 10 ; 0 / 0 ; 0 / 0 ; 100 / 1 / 0 ; 0 ; 0 / 0]
+
+[Premiers secours;Apaise legerement les blessures; 0 ; 0 / 0 ; 0 / 0 ; 100 / 0 / 0 ; 10 ; 20 / 0]
+
+[Coup Puissant;Coup devastateur a l'epee.; 20 ; 0 / 0 ; 0 / 0 ; 100 / 2 / 1 ; 5 ; 0 / 0]
+
+[Cri de guerre;Cri boostant l'attaque.; 0 ; 2 / 0 ; 0 / 0; 100 / 0 / 0 ; 15 ; 0 / 0]
+
+[Berserker;Folie meurtiere augmentant grandement les capacites physiques en delaissant la defense.; 0 ; 4 / -4 ; 0 / 0 ; 100 / 0 / 0 ; 0 ; -60 / 0]
+
+[Boule de feu;Technique de pyromancie de niveau novice; 30 ; 0 / 0 ; 0 / 0 ; 90 / 5 / 0 ; 15 ; 0 / 0]
+
+[Barriere;Bouclier spirituel augmentant la défense.; 0 ; 0 / 2 ; 0 / 0 ; 100 / 0 / 0 ; 15 ; 0 / 0]
+
+[Mega Laser;Vous concentrez votre puissance dans un rayon d'energie devastateur. Affaiblit votre attaque.; 50 ; -2 / 0 ; 0 / 0 ; 80 / 15 / 1 ; 30 ; 0 / 0]
+
+[Coup furtif;Frappe discrete dans le dos. diminue legerement la defense de l'advresaire.; 20 ; 0 / 0 ; 0 / -1 ; 100 / 1 / 0 ; 15 ; 0 / 0]
+
+[Frappe risquee;Coup augmentant legerement l'attaque au detriment de la defense.; 30 ; 1 / -1 ; 0 / 0 ; 90 / 1 / 0 ; 15 ; 0 / 0]
+
+[Temerite;Posture offensive augmentant l'attaque.; 0 ; 2 / 0 ; 0 / 0 ; 100 / 0 / 0 ; 15 ; 0 / 0]
+
+[Prudence;Posture defensive augmentant la defense.; 0 ; 0 / 2 ; 0 / 0 ; 100 / 0 / 0 ; 15 ; 0 / 0]
+
+[Morsure;Attaque violente avec vos crocs.; 25 ; 0 / 0 ; 0 / 0 ; 90 / 1 / 0 ; 10 ; 0 / 0]
+
+[Revigorement;Absorption des nutriments du sol pour vous soigner.; 0 ; 0 / 0 ; 0 / 0 ; 100 / 0 / 0 ; 16 ; 40 / 0]

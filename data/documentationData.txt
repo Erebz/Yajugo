@@ -1,0 +1,34 @@
+//Liste donjons :
+nb Donjons
+[Nom; niveau necessaire; nb etage]
+nb ennemi, nb types ennemis : ids , ... / nivMin ~ nivMax /
+nb objet, nb types objets : ids , ... /
+...
+
+//Liste Cases :
+nb Cases
+//Commentaire (nom)
+[id, traversable, caractere]
+...
+
+//Type Joueur :
+coeffPvMin / coeffManaMin / coeffAtkMin / coeffDefMin
+coeffPvMax / coeffManaMax / coeffAtkMax / coeffDefMax
+nbApprentissagesMax :
+caps de niveau / ... /
+ids competences / ... /
+
+//Liste Types Ennemis :
+nb types ennemis
+[Nom; coeffPv / coeffMana / coeffAtk / coeffDef / coeffXp / nbCompetences : ids ; ... ]
+...
+
+//Liste Competence :
+nb competences
+[Nom;description; degats; buff ATK/DEF; buff cible ATK/DEF; precision/portee/transperce; cout Mana; gain PV/Mana]
+...
+
+//Liste Objets :
+nb objets
+[Nom;description; gainPV; gainMana; buffAtk; buffDef]
+...

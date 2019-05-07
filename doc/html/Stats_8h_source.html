@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>YaJuGo Donjon:  Fichier source de /home/etu/p1709958/GitLIFAP4/donjon/YaJuGo/src/core/Stats.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">YaJuGo Donjon
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Stats.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Stats_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef STATS_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define STATS_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="TypeEnnemi_8h.html">TypeEnnemi.h</a>&quot;</span> </div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#define MAX_BUFF 8</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define MIN_BUFF -4</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structStats.html">   25</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structStats.html">Stats</a> {</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structStats.html#a1c5b71cc5cf5a331316fd8c29d89543c">   29</a></span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structStats.html#a1c5b71cc5cf5a331316fd8c29d89543c">pv</a>; </div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="structStats.html#a726bf4ece79dacd7ea3efc78843c6fdc">   30</a></span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structStats.html#a726bf4ece79dacd7ea3efc78843c6fdc">pvMax</a>; </div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structStats.html#abc64c659cb31cc29124bd55bd089d385">   31</a></span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structStats.html#abc64c659cb31cc29124bd55bd089d385">mana</a>; </div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structStats.html#a8df4032690c2c14ec4669c997baa7624">   32</a></span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structStats.html#a8df4032690c2c14ec4669c997baa7624">manaMax</a>; </div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="structStats.html#ab7c86676daffc8b4db20f9af44baf912">   33</a></span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structStats.html#ab7c86676daffc8b4db20f9af44baf912">atk</a>; </div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structStats.html#a5e823290d5a71ec78c6fc1ae777f96a6">   34</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="structStats.html#a5e823290d5a71ec78c6fc1ae777f96a6">buffAtk</a>; </div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structStats.html#a87c330097a4b5399d1c2f00826299fc1">   35</a></span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structStats.html#a87c330097a4b5399d1c2f00826299fc1">def</a>; </div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="structStats.html#afbd2cc1240efa91f1a0577576c7c1699">   36</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="structStats.html#afbd2cc1240efa91f1a0577576c7c1699">buffDef</a>; </div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Stats_8h.html#a494962dbe670972b5d4e235047f1d2df">initialiserStats</a>(<a class="code" href="structStats.html">Stats</a> &amp; s, <span class="keyword">const</span> <span class="keywordtype">string</span> &amp;nomType); <span class="comment">// Une procédure qui prend en paramètre deux arguments</span></div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"></span><span class="keywordtype">void</span> <a class="code" href="Stats_8h.html#a494962dbe670972b5d4e235047f1d2df">initialiserStats</a>(<a class="code" href="structStats.html">Stats</a> &amp; s, <span class="keyword">const</span> <a class="code" href="structTypeEnnemi.html">TypeEnnemi</a> &amp;t, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> niveau); <span class="comment">//pour les ennemis</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif // STATS_H</span></div><div class="ttc" id="structStats_html_afbd2cc1240efa91f1a0577576c7c1699"><div class="ttname"><a href="structStats.html#afbd2cc1240efa91f1a0577576c7c1699">Stats::buffDef</a></div><div class="ttdeci">int buffDef</div><div class="ttdef"><b>Definition:</b> Stats.h:36</div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="structStats_html_a87c330097a4b5399d1c2f00826299fc1"><div class="ttname"><a href="structStats.html#a87c330097a4b5399d1c2f00826299fc1">Stats::def</a></div><div class="ttdeci">unsigned int def</div><div class="ttdef"><b>Definition:</b> Stats.h:35</div></div>
+<div class="ttc" id="TypeEnnemi_8h_html"><div class="ttname"><a href="TypeEnnemi_8h.html">TypeEnnemi.h</a></div><div class="ttdoc">Fichier en-tête d&amp;#39;un TypeEnnemi. </div></div>
+<div class="ttc" id="structStats_html_a8df4032690c2c14ec4669c997baa7624"><div class="ttname"><a href="structStats.html#a8df4032690c2c14ec4669c997baa7624">Stats::manaMax</a></div><div class="ttdeci">unsigned int manaMax</div><div class="ttdef"><b>Definition:</b> Stats.h:32</div></div>
+<div class="ttc" id="structStats_html_a726bf4ece79dacd7ea3efc78843c6fdc"><div class="ttname"><a href="structStats.html#a726bf4ece79dacd7ea3efc78843c6fdc">Stats::pvMax</a></div><div class="ttdeci">unsigned int pvMax</div><div class="ttdef"><b>Definition:</b> Stats.h:30</div></div>
+<div class="ttc" id="structStats_html_a1c5b71cc5cf5a331316fd8c29d89543c"><div class="ttname"><a href="structStats.html#a1c5b71cc5cf5a331316fd8c29d89543c">Stats::pv</a></div><div class="ttdeci">unsigned int pv</div><div class="ttdef"><b>Definition:</b> Stats.h:29</div></div>
+<div class="ttc" id="structStats_html_abc64c659cb31cc29124bd55bd089d385"><div class="ttname"><a href="structStats.html#abc64c659cb31cc29124bd55bd089d385">Stats::mana</a></div><div class="ttdeci">unsigned int mana</div><div class="ttdef"><b>Definition:</b> Stats.h:31</div></div>
+<div class="ttc" id="Stats_8h_html_a494962dbe670972b5d4e235047f1d2df"><div class="ttname"><a href="Stats_8h.html#a494962dbe670972b5d4e235047f1d2df">initialiserStats</a></div><div class="ttdeci">void initialiserStats(Stats &amp;s, const string &amp;nomType)</div><div class="ttdoc">Procédure: initialise les statistiques du joueur. </div><div class="ttdef"><b>Definition:</b> Stats.cpp:4</div></div>
+<div class="ttc" id="structStats_html_ab7c86676daffc8b4db20f9af44baf912"><div class="ttname"><a href="structStats.html#ab7c86676daffc8b4db20f9af44baf912">Stats::atk</a></div><div class="ttdeci">unsigned int atk</div><div class="ttdef"><b>Definition:</b> Stats.h:33</div></div>
+<div class="ttc" id="structTypeEnnemi_html"><div class="ttname"><a href="structTypeEnnemi.html">TypeEnnemi</a></div><div class="ttdoc">Comprend les caractéristiques d&amp;#39;un type d&amp;#39;Ennemi. </div><div class="ttdef"><b>Definition:</b> TypeEnnemi.h:15</div></div>
+<div class="ttc" id="structStats_html_a5e823290d5a71ec78c6fc1ae777f96a6"><div class="ttname"><a href="structStats.html#a5e823290d5a71ec78c6fc1ae777f96a6">Stats::buffAtk</a></div><div class="ttdeci">int buffAtk</div><div class="ttdef"><b>Definition:</b> Stats.h:34</div></div>
+<div class="ttc" id="structStats_html"><div class="ttname"><a href="structStats.html">Stats</a></div><div class="ttdoc">Comprend les statistiques d&amp;#39;une entité (Ennemi ou Joueur) </div><div class="ttdef"><b>Definition:</b> Stats.h:25</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

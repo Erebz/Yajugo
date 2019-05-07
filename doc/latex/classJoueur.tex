@@ -1,0 +1,554 @@
+\hypertarget{classJoueur}{}\section{Référence de la classe Joueur}
+\label{classJoueur}\index{Joueur@{Joueur}}
+
+
+La classe \mbox{\hyperlink{classJoueur}{Joueur}}.  
+
+
+
+
+{\ttfamily \#include $<$Joueur.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoueur_add6c98be3020651d84f6d75ccc1d867e}{Joueur}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classJoueur_a95c3bd5643ff4532f35e13ea9250c91e}{Joueur}} (const string \&nom, const string \&nom\+Type, const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&lcomp)
+\begin{DoxyCompactList}\small\item\em Constructeur par copie. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classJoueur_ac409bdc2fab0062af127be02d44f1e69}{Joueur}} (const unsigned int i, const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&lcomp, const \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \&lobj)
+\begin{DoxyCompactList}\small\item\em Constructeur par copie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJoueur_a9fb594f755601ee77ce5884c4c0861f3}\label{classJoueur_a9fb594f755601ee77ce5884c4c0861f3}} 
+\mbox{\hyperlink{classJoueur_a9fb594f755601ee77ce5884c4c0861f3}{$\sim$\+Joueur}} ()
+\begin{DoxyCompactList}\small\item\em Destruteur. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classJoueur_aa2ff1bfeeb5e1f631750d70c06b8c6d0}{get\+Nom}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nom du \mbox{\hyperlink{classJoueur}{Joueur}}. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_a0d86f3ee629b3061192a4ac6631bc608}{getX}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la coordonnée X du joueur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_aa9c3a397e0ca29e7137effdbd693334d}{getY}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la coordonnée Y du joueur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_a26b77ddad57c8aafd43d3bd0e192a75f}{get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la direction. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_abec464c3958916f951e19ba5e12d0dbc}{get\+Niveau}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le niveau du joueur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_aca3db9562eeb1ca44522109610b9cd80}{get\+Exp}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nombre de points d\textquotesingle{}expérience du joueur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_a6a373cadbec2c4aa63efd813caea81c5}{get\+Exp\+Niv\+Sup}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nombre de points d\textquotesingle{}expérience nécessaire pour atteindre le niveau supérieur. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structTypeJoueur}{Type\+Joueur}} \& \mbox{\hyperlink{classJoueur_a07800b7930b339f789a4e0d9a9ef220f}{get\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le \mbox{\hyperlink{structTypeJoueur}{Type\+Joueur}} du \mbox{\hyperlink{classJoueur}{Joueur}}. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structStats}{Stats}} \& \mbox{\hyperlink{classJoueur_af606e8696fe13a8d974fa82807b13c61}{get\+Stats}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne les statistiques du joueur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_adc1402a249ac134756268bb3590677c5}{get\+Nb\+Competences\+Apprises}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nombre de compétences apprises par le joueur. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structCompetence}{Competence}} $\ast$ \mbox{\hyperlink{classJoueur_a16549832c2daff14fc2b51ecdc3e15ee}{get\+Competence}} (const unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la compétence du joueur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_a2e4f88f534715188f19d35d1f72c1a44}{get\+Nb\+Objets}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nombre d\textquotesingle{}objets que possède le joueur. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structObjet}{Objet}} $\ast$ \mbox{\hyperlink{classJoueur_ac9530c324c6dff323138e00b933eb448}{get\+Objet}} (const unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne un objet possédé du joueur. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classJoueur_ac1ed6a6c64897d04401117fe9ed4a3a3}{inventaire\+Plein}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Indique si l\textquotesingle{}inventaire a atteint sa limite. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classJoueur_ac5858c0f47f552a3abfc1963045b02ef}{est\+Mort}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Indique si le joueur est mort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_a5da6810c854b9aae11f725c8b2dffe61}{setX}} (const unsigned int x)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Change la coordonnée X. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_a682f7cb2fa36f810d3e0f72f96e18696}{setY}} (const unsigned int y)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Change la coordonnée Y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_a873b075ff9fe84219a5208765022b06b}{set\+Direction}} (const unsigned int dir)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Oriente le joueur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_ace8f0a52669bf6aa9021dc3f17d1b0be}{soin\+Pv\+Mana}} (const unsigned int gain\+Pv, const unsigned int gain\+Mana)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Rend des points de vie et du mana au joueur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classJoueur_a4adf0e1a3a5ac5f67fe2e23783138dad}{subir\+Degats}} (const unsigned int degats)
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retire les dommages reçus aux points de vie du joueur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_a3e461446055f364483c8315d7e611793}{payer\+Cout\+Mana}} (const unsigned int cout)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Retire le coût de mana d\textquotesingle{}une compétence au mana du joueur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_a1a79c264f3320b2c27d0e2bf3801467a}{modif\+Buff\+Atk\+Def}} (const int buff\+Atk, const int buff\+Def)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Applique les bonus/malus d\textquotesingle{}attaque et de défense passés en paramètres. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJoueur_a6d0488ad02ff712b56aab381ac3c64db}\label{classJoueur_a6d0488ad02ff712b56aab381ac3c64db}} 
+void \mbox{\hyperlink{classJoueur_a6d0488ad02ff712b56aab381ac3c64db}{reinitialiser\+Stats}} ()
+\begin{DoxyCompactList}\small\item\em Procédure\+: Reset total des stats. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJoueur_a4be9a42bab60bb359df351373ea8fdd2}\label{classJoueur_a4be9a42bab60bb359df351373ea8fdd2}} 
+void \mbox{\hyperlink{classJoueur_a4be9a42bab60bb359df351373ea8fdd2}{reinitialiser\+Pv\+Mana}} ()
+\begin{DoxyCompactList}\small\item\em Procédure\+: Reset de la vie et du mana. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJoueur_aa89a0304bf3ec5c70f98d3db312a2d06}\label{classJoueur_aa89a0304bf3ec5c70f98d3db312a2d06}} 
+void \mbox{\hyperlink{classJoueur_aa89a0304bf3ec5c70f98d3db312a2d06}{reinitialiser\+Buffs}} ()
+\begin{DoxyCompactList}\small\item\em Procédure\+: Reset des buffs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_ab7540c58e8bed028c142426179c597b7}{obtenir\+Exp}} (const unsigned int exp\+Gagne)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Augmente le nombre de points d\textquotesingle{}expérience. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classJoueur_a7e9c44aa28a9b9578af732651f76c82d}{peut\+Utiliser\+Ieme\+Competence}} (const unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Vérifie si le joueur peut utiliser une certaine compétence. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_afadc41460cd333b617d0b1643e4c0feb}{utiliser\+Ieme\+Objet}} (const unsigned int i)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Utilise un \mbox{\hyperlink{structObjet}{Objet}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_a948d55ce2e039906efc45b95c3f700c2}{ajouter\+Objet}} (\mbox{\hyperlink{structObjet}{Objet}} $\ast$objet)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Ajoute un objet à l\textquotesingle{}inventaire. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJoueur_a3bc7264efba044ad356416dcfea263ed}{retirer\+Objet}} (const unsigned int i)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Retire un objet de l\textquotesingle{}inventaire. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \mbox{\hyperlink{classJoueur}{Joueur}}. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classJoueur_add6c98be3020651d84f6d75ccc1d867e}\label{classJoueur_add6c98be3020651d84f6d75ccc1d867e}} 
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{Joueur()}{Joueur()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Joueur\+::\+Joueur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut. 
+
+Le joueur regardera vers le bas par défaut. \mbox{\Hypertarget{classJoueur_a95c3bd5643ff4532f35e13ea9250c91e}\label{classJoueur_a95c3bd5643ff4532f35e13ea9250c91e}} 
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{Joueur()}{Joueur()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Joueur\+::\+Joueur (\begin{DoxyParamCaption}\item[{const string \&}]{nom,  }\item[{const string \&}]{nom\+Type,  }\item[{const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&}]{lcomp }\end{DoxyParamCaption})}
+
+
+
+Constructeur par copie. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nom} & un string \\
+\hline
+\mbox{\tt in}  & {\em nom\+Type} & un string \\
+\hline
+\mbox{\tt in}  & {\em lcomp} & un e \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_ac409bdc2fab0062af127be02d44f1e69}\label{classJoueur_ac409bdc2fab0062af127be02d44f1e69}} 
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{Joueur()}{Joueur()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Joueur\+::\+Joueur (\begin{DoxyParamCaption}\item[{const unsigned int}]{i,  }\item[{const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&}]{lcomp,  }\item[{const \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \&}]{lobj }\end{DoxyParamCaption})}
+
+
+
+Constructeur par copie. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int \\
+\hline
+\mbox{\tt in}  & {\em lcomp} & un \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \\
+\hline
+\mbox{\tt in}  & {\em lobj} & un \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classJoueur_a948d55ce2e039906efc45b95c3f700c2}\label{classJoueur_a948d55ce2e039906efc45b95c3f700c2}} 
+\index{Joueur@{Joueur}!ajouter\+Objet@{ajouter\+Objet}}
+\index{ajouter\+Objet@{ajouter\+Objet}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{ajouter\+Objet()}{ajouterObjet()}}
+{\footnotesize\ttfamily void Joueur\+::ajouter\+Objet (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structObjet}{Objet}} $\ast$}]{objet }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Ajoute un objet à l\textquotesingle{}inventaire. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in,out}  & {\em objet} & un pointeur d\textquotesingle{}\mbox{\hyperlink{structObjet}{Objet}}, l\textquotesingle{}objet ajouté à l\textquotesingle{}inventaire \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_ac5858c0f47f552a3abfc1963045b02ef}\label{classJoueur_ac5858c0f47f552a3abfc1963045b02ef}} 
+\index{Joueur@{Joueur}!est\+Mort@{est\+Mort}}
+\index{est\+Mort@{est\+Mort}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{est\+Mort()}{estMort()}}
+{\footnotesize\ttfamily bool Joueur\+::est\+Mort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Indique si le joueur est mort. 
+
+\begin{DoxyReturn}{Renvoie}
+Un booléen, true si le joueur est mort, false sinon 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_a16549832c2daff14fc2b51ecdc3e15ee}\label{classJoueur_a16549832c2daff14fc2b51ecdc3e15ee}} 
+\index{Joueur@{Joueur}!get\+Competence@{get\+Competence}}
+\index{get\+Competence@{get\+Competence}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Competence()}{getCompetence()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structCompetence}{Competence}} $\ast$ Joueur\+::get\+Competence (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la compétence du joueur. 
+
+L\textquotesingle{}indice de la compétence à retourner est passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, l\textquotesingle{}indice de la compétence à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un pointeur vers une \mbox{\hyperlink{structCompetence}{Competence}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_a26b77ddad57c8aafd43d3bd0e192a75f}\label{classJoueur_a26b77ddad57c8aafd43d3bd0e192a75f}} 
+\index{Joueur@{Joueur}!get\+Direction@{get\+Direction}}
+\index{get\+Direction@{get\+Direction}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Direction()}{getDirection()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la direction. 
+
+Un nombre correspond à une direction ~\newline
+ Nord = 1 ~\newline
+ Est = 2 ~\newline
+ Sud = 3 ~\newline
+ Ouest = 4 ~\newline
+ \begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_aca3db9562eeb1ca44522109610b9cd80}\label{classJoueur_aca3db9562eeb1ca44522109610b9cd80}} 
+\index{Joueur@{Joueur}!get\+Exp@{get\+Exp}}
+\index{get\+Exp@{get\+Exp}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Exp()}{getExp()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Exp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nombre de points d\textquotesingle{}expérience du joueur. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_a6a373cadbec2c4aa63efd813caea81c5}\label{classJoueur_a6a373cadbec2c4aa63efd813caea81c5}} 
+\index{Joueur@{Joueur}!get\+Exp\+Niv\+Sup@{get\+Exp\+Niv\+Sup}}
+\index{get\+Exp\+Niv\+Sup@{get\+Exp\+Niv\+Sup}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Exp\+Niv\+Sup()}{getExpNivSup()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Exp\+Niv\+Sup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nombre de points d\textquotesingle{}expérience nécessaire pour atteindre le niveau supérieur. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_adc1402a249ac134756268bb3590677c5}\label{classJoueur_adc1402a249ac134756268bb3590677c5}} 
+\index{Joueur@{Joueur}!get\+Nb\+Competences\+Apprises@{get\+Nb\+Competences\+Apprises}}
+\index{get\+Nb\+Competences\+Apprises@{get\+Nb\+Competences\+Apprises}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Nb\+Competences\+Apprises()}{getNbCompetencesApprises()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Nb\+Competences\+Apprises (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nombre de compétences apprises par le joueur. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_a2e4f88f534715188f19d35d1f72c1a44}\label{classJoueur_a2e4f88f534715188f19d35d1f72c1a44}} 
+\index{Joueur@{Joueur}!get\+Nb\+Objets@{get\+Nb\+Objets}}
+\index{get\+Nb\+Objets@{get\+Nb\+Objets}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Nb\+Objets()}{getNbObjets()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Nb\+Objets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nombre d\textquotesingle{}objets que possède le joueur. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_abec464c3958916f951e19ba5e12d0dbc}\label{classJoueur_abec464c3958916f951e19ba5e12d0dbc}} 
+\index{Joueur@{Joueur}!get\+Niveau@{get\+Niveau}}
+\index{get\+Niveau@{get\+Niveau}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Niveau()}{getNiveau()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Niveau (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le niveau du joueur. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_aa2ff1bfeeb5e1f631750d70c06b8c6d0}\label{classJoueur_aa2ff1bfeeb5e1f631750d70c06b8c6d0}} 
+\index{Joueur@{Joueur}!get\+Nom@{get\+Nom}}
+\index{get\+Nom@{get\+Nom}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Nom()}{getNom()}}
+{\footnotesize\ttfamily string Joueur\+::get\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nom du \mbox{\hyperlink{classJoueur}{Joueur}}. 
+
+\begin{DoxyReturn}{Renvoie}
+Un string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_ac9530c324c6dff323138e00b933eb448}\label{classJoueur_ac9530c324c6dff323138e00b933eb448}} 
+\index{Joueur@{Joueur}!get\+Objet@{get\+Objet}}
+\index{get\+Objet@{get\+Objet}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Objet()}{getObjet()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structObjet}{Objet}} $\ast$ Joueur\+::get\+Objet (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne un objet possédé du joueur. 
+
+L\textquotesingle{}indice de l\textquotesingle{}objet à retourner est passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, indice de l\textquotesingle{}objet à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un pointeur vers un \mbox{\hyperlink{structObjet}{Objet}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_af606e8696fe13a8d974fa82807b13c61}\label{classJoueur_af606e8696fe13a8d974fa82807b13c61}} 
+\index{Joueur@{Joueur}!get\+Stats@{get\+Stats}}
+\index{get\+Stats@{get\+Stats}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Stats()}{getStats()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structStats}{Stats}} \& Joueur\+::get\+Stats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne les statistiques du joueur. 
+
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{structStats}{Stats}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_a07800b7930b339f789a4e0d9a9ef220f}\label{classJoueur_a07800b7930b339f789a4e0d9a9ef220f}} 
+\index{Joueur@{Joueur}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Type()}{getType()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structTypeJoueur}{Type\+Joueur}} \& Joueur\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le \mbox{\hyperlink{structTypeJoueur}{Type\+Joueur}} du \mbox{\hyperlink{classJoueur}{Joueur}}. 
+
+Par exemple mage, guerrier, etc. \begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{structTypeJoueur}{Type\+Joueur}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_a0d86f3ee629b3061192a4ac6631bc608}\label{classJoueur_a0d86f3ee629b3061192a4ac6631bc608}} 
+\index{Joueur@{Joueur}!getX@{getX}}
+\index{getX@{getX}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la coordonnée X du joueur. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_aa9c3a397e0ca29e7137effdbd693334d}\label{classJoueur_aa9c3a397e0ca29e7137effdbd693334d}} 
+\index{Joueur@{Joueur}!getY@{getY}}
+\index{getY@{getY}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la coordonnée Y du joueur. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_ac1ed6a6c64897d04401117fe9ed4a3a3}\label{classJoueur_ac1ed6a6c64897d04401117fe9ed4a3a3}} 
+\index{Joueur@{Joueur}!inventaire\+Plein@{inventaire\+Plein}}
+\index{inventaire\+Plein@{inventaire\+Plein}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{inventaire\+Plein()}{inventairePlein()}}
+{\footnotesize\ttfamily bool Joueur\+::inventaire\+Plein (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Indique si l\textquotesingle{}inventaire a atteint sa limite. 
+
+\begin{DoxyReturn}{Renvoie}
+Un booléen, true si la limite de l\textquotesingle{}inventaire est atteinte, false sinon 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_a1a79c264f3320b2c27d0e2bf3801467a}\label{classJoueur_a1a79c264f3320b2c27d0e2bf3801467a}} 
+\index{Joueur@{Joueur}!modif\+Buff\+Atk\+Def@{modif\+Buff\+Atk\+Def}}
+\index{modif\+Buff\+Atk\+Def@{modif\+Buff\+Atk\+Def}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{modif\+Buff\+Atk\+Def()}{modifBuffAtkDef()}}
+{\footnotesize\ttfamily void Joueur\+::modif\+Buff\+Atk\+Def (\begin{DoxyParamCaption}\item[{const int}]{buff\+Atk,  }\item[{const int}]{buff\+Def }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Applique les bonus/malus d\textquotesingle{}attaque et de défense passés en paramètres. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em buff\+Atk} & un int, le bonus/malus d\textquotesingle{}attaque à appliquer \\
+\hline
+\mbox{\tt in}  & {\em buff\+Def} & un int, le bonus/malus de défense à appliquer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_ab7540c58e8bed028c142426179c597b7}\label{classJoueur_ab7540c58e8bed028c142426179c597b7}} 
+\index{Joueur@{Joueur}!obtenir\+Exp@{obtenir\+Exp}}
+\index{obtenir\+Exp@{obtenir\+Exp}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{obtenir\+Exp()}{obtenirExp()}}
+{\footnotesize\ttfamily void Joueur\+::obtenir\+Exp (\begin{DoxyParamCaption}\item[{const unsigned int}]{exp\+Gagne }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Augmente le nombre de points d\textquotesingle{}expérience. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em exp\+Gagne} & un unsigned int, le nombre de points d\textquotesingle{}expérience à ajouter \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_a3e461446055f364483c8315d7e611793}\label{classJoueur_a3e461446055f364483c8315d7e611793}} 
+\index{Joueur@{Joueur}!payer\+Cout\+Mana@{payer\+Cout\+Mana}}
+\index{payer\+Cout\+Mana@{payer\+Cout\+Mana}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{payer\+Cout\+Mana()}{payerCoutMana()}}
+{\footnotesize\ttfamily void Joueur\+::payer\+Cout\+Mana (\begin{DoxyParamCaption}\item[{const unsigned int}]{cout }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Retire le coût de mana d\textquotesingle{}une compétence au mana du joueur. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em cout} & un unsigned int, coût en mana à retirer de la réserve du joueur \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_a7e9c44aa28a9b9578af732651f76c82d}\label{classJoueur_a7e9c44aa28a9b9578af732651f76c82d}} 
+\index{Joueur@{Joueur}!peut\+Utiliser\+Ieme\+Competence@{peut\+Utiliser\+Ieme\+Competence}}
+\index{peut\+Utiliser\+Ieme\+Competence@{peut\+Utiliser\+Ieme\+Competence}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{peut\+Utiliser\+Ieme\+Competence()}{peutUtiliserIemeCompetence()}}
+{\footnotesize\ttfamily bool Joueur\+::peut\+Utiliser\+Ieme\+Competence (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Vérifie si le joueur peut utiliser une certaine compétence. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, indice de la compétence \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un booléen, true si le joueur peut utiliser la compétence,false sinon. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_a3bc7264efba044ad356416dcfea263ed}\label{classJoueur_a3bc7264efba044ad356416dcfea263ed}} 
+\index{Joueur@{Joueur}!retirer\+Objet@{retirer\+Objet}}
+\index{retirer\+Objet@{retirer\+Objet}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{retirer\+Objet()}{retirerObjet()}}
+{\footnotesize\ttfamily void Joueur\+::retirer\+Objet (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Retire un objet de l\textquotesingle{}inventaire. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, indice de l\textquotesingle{}\mbox{\hyperlink{structObjet}{Objet}} à retirer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_a873b075ff9fe84219a5208765022b06b}\label{classJoueur_a873b075ff9fe84219a5208765022b06b}} 
+\index{Joueur@{Joueur}!set\+Direction@{set\+Direction}}
+\index{set\+Direction@{set\+Direction}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{set\+Direction()}{setDirection()}}
+{\footnotesize\ttfamily void Joueur\+::set\+Direction (\begin{DoxyParamCaption}\item[{const unsigned int}]{dir }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Oriente le joueur. 
+
+La direction à appliquer est donner par un nombre passé en paramètre. ~\newline
+Nord = 1 ~\newline
+Est = 2 ~\newline
+Sud = 3 ~\newline
+Ouest = 4 ~\newline
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em dir} & un unsigned int, indique la direction à appliquer au joueur \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_a5da6810c854b9aae11f725c8b2dffe61}\label{classJoueur_a5da6810c854b9aae11f725c8b2dffe61}} 
+\index{Joueur@{Joueur}!setX@{setX}}
+\index{setX@{setX}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{set\+X()}{setX()}}
+{\footnotesize\ttfamily void Joueur\+::setX (\begin{DoxyParamCaption}\item[{const unsigned int}]{x }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Change la coordonnée X. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em x} & un int \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_a682f7cb2fa36f810d3e0f72f96e18696}\label{classJoueur_a682f7cb2fa36f810d3e0f72f96e18696}} 
+\index{Joueur@{Joueur}!setY@{setY}}
+\index{setY@{setY}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{set\+Y()}{setY()}}
+{\footnotesize\ttfamily void Joueur\+::setY (\begin{DoxyParamCaption}\item[{const unsigned int}]{y }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Change la coordonnée Y. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em y} & un int \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_ace8f0a52669bf6aa9021dc3f17d1b0be}\label{classJoueur_ace8f0a52669bf6aa9021dc3f17d1b0be}} 
+\index{Joueur@{Joueur}!soin\+Pv\+Mana@{soin\+Pv\+Mana}}
+\index{soin\+Pv\+Mana@{soin\+Pv\+Mana}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{soin\+Pv\+Mana()}{soinPvMana()}}
+{\footnotesize\ttfamily void Joueur\+::soin\+Pv\+Mana (\begin{DoxyParamCaption}\item[{const unsigned int}]{gain\+Pv,  }\item[{const unsigned int}]{gain\+Mana }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Rend des points de vie et du mana au joueur. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em gain\+Pv} & un unsigned int, le nombre de PV à rendre \\
+\hline
+\mbox{\tt in}  & {\em gain\+Mana} & un unsigned int, le nombre de mana à rendre \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJoueur_a4adf0e1a3a5ac5f67fe2e23783138dad}\label{classJoueur_a4adf0e1a3a5ac5f67fe2e23783138dad}} 
+\index{Joueur@{Joueur}!subir\+Degats@{subir\+Degats}}
+\index{subir\+Degats@{subir\+Degats}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{subir\+Degats()}{subirDegats()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::subir\+Degats (\begin{DoxyParamCaption}\item[{const unsigned int}]{degats }\end{DoxyParamCaption})}
+
+
+
+Fonction\+: Retire les dommages reçus aux points de vie du joueur. 
+
+Le nombre de dommages reçus est passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em degats} & un unsigned int, le nombre de dégâts à appliquerau joueur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJoueur_afadc41460cd333b617d0b1643e4c0feb}\label{classJoueur_afadc41460cd333b617d0b1643e4c0feb}} 
+\index{Joueur@{Joueur}!utiliser\+Ieme\+Objet@{utiliser\+Ieme\+Objet}}
+\index{utiliser\+Ieme\+Objet@{utiliser\+Ieme\+Objet}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{utiliser\+Ieme\+Objet()}{utiliserIemeObjet()}}
+{\footnotesize\ttfamily void Joueur\+::utiliser\+Ieme\+Objet (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Utilise un \mbox{\hyperlink{structObjet}{Objet}}. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, indice de l\textquotesingle{}\mbox{\hyperlink{structObjet}{Objet}} à utiliser \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Joueur_8h}{Joueur.\+h}}\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/Joueur.\+cpp\end{DoxyCompactItemize}

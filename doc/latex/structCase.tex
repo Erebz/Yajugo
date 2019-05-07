@@ -1,0 +1,60 @@
+\hypertarget{structCase}{}\section{Référence de la structure Case}
+\label{structCase}\index{Case@{Case}}
+
+
+Comprend les caractéristiques d\textquotesingle{}une case.  
+
+
+
+
+{\ttfamily \#include $<$Case.\+h$>$}
+
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{structCase_a582822c41f72ea9c1ff300ecc3634913}{id}} = 0
+\item 
+\mbox{\hyperlink{structObjet}{Objet}} $\ast$ \mbox{\hyperlink{structCase_a182f9c3f43cf1a8aa3391cca353028b5}{objet}} = N\+U\+LL
+\item 
+bool \mbox{\hyperlink{structCase_a4e8e7bff6969ebe1b726d124da5ea2a9}{traversable}} = false
+\item 
+string \mbox{\hyperlink{structCase_a6ab3f70330dfe23518638688cf766b66}{caractere}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Comprend les caractéristiques d\textquotesingle{}une case. 
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{structCase_a6ab3f70330dfe23518638688cf766b66}\label{structCase_a6ab3f70330dfe23518638688cf766b66}} 
+\index{Case@{Case}!caractere@{caractere}}
+\index{caractere@{caractere}!Case@{Case}}
+\subsubsection{\texorpdfstring{caractere}{caractere}}
+{\footnotesize\ttfamily string Case\+::caractere}
+
+Chaîne de caractères à afficher pour représenter la case \begin{DoxyNote}{Note}
+On ne pouvait pas utiliser un char à la place d\textquotesingle{}un string car il ne permet pas d\textquotesingle{}afficher les caractères spéciaux qui étaient nécessaire pour l\textquotesingle{}affichage. 
+\end{DoxyNote}
+\mbox{\Hypertarget{structCase_a582822c41f72ea9c1ff300ecc3634913}\label{structCase_a582822c41f72ea9c1ff300ecc3634913}} 
+\index{Case@{Case}!id@{id}}
+\index{id@{id}!Case@{Case}}
+\subsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily unsigned int Case\+::id = 0}
+
+Identifiant d\textquotesingle{}une case (= sa catégorie\+: un mur, un chemin, un bloc infranchissable...) (0 par défaut, la case est défini comme étant un mur) \mbox{\Hypertarget{structCase_a182f9c3f43cf1a8aa3391cca353028b5}\label{structCase_a182f9c3f43cf1a8aa3391cca353028b5}} 
+\index{Case@{Case}!objet@{objet}}
+\index{objet@{objet}!Case@{Case}}
+\subsubsection{\texorpdfstring{objet}{objet}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structObjet}{Objet}}$\ast$ Case\+::objet = N\+U\+LL}
+
+Pointeur vers un \mbox{\hyperlink{structObjet}{Objet}} (à N\+U\+LL par défaut, la case ne contient pas d\textquotesingle{}objet à sa création) \mbox{\Hypertarget{structCase_a4e8e7bff6969ebe1b726d124da5ea2a9}\label{structCase_a4e8e7bff6969ebe1b726d124da5ea2a9}} 
+\index{Case@{Case}!traversable@{traversable}}
+\index{traversable@{traversable}!Case@{Case}}
+\subsubsection{\texorpdfstring{traversable}{traversable}}
+{\footnotesize\ttfamily bool Case\+::traversable = false}
+
+Booléen indiquant si la case est traversable par une entité (joueur ou ennemi) (false par défaut, la case est infranchissable à sa création) 
+
+La documentation de cette structure a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Case_8h}{Case.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>YaJuGo Donjon:  Fichier source de /home/etu/p1709958/GitLIFAP4/donjon/YaJuGo/src/core/ListeObjets.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">YaJuGo Donjon
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ListeObjets.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="ListeObjets_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef LISTE_OBJETS_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define LISTE_OBJETS_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Objet_8h.html">Objet.h</a>&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structListeObjets.html">   13</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structListeObjets.html">ListeObjets</a> {</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structListeObjets.html#af4c85a8aaea301d98f395e4f26e93cb0">   18</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structListeObjets.html#af4c85a8aaea301d98f395e4f26e93cb0">nbObjets</a>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structListeObjets.html#abb023142003f84265b55ee66de08d05e">   19</a></span>&#160;    <a class="code" href="structObjet.html">Objet</a> * <a class="code" href="structListeObjets.html#abb023142003f84265b55ee66de08d05e">listeObjets</a>; </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">void</span> <a class="code" href="ListeObjets_8h.html#a4937dddad10b1b85bddd4e6ea7821c97">initialiserListeObjets</a>(<a class="code" href="structListeObjets.html">ListeObjets</a> &amp; liste);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="ListeObjets_8h.html#aa1c02d460e72e72ff481391585ef6f14">effacerListeObjets</a>(<a class="code" href="structListeObjets.html">ListeObjets</a> &amp; liste);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif // LISTE_OBJETS_H</span></div><div class="ttc" id="ListeObjets_8h_html_a4937dddad10b1b85bddd4e6ea7821c97"><div class="ttname"><a href="ListeObjets_8h.html#a4937dddad10b1b85bddd4e6ea7821c97">initialiserListeObjets</a></div><div class="ttdeci">void initialiserListeObjets(ListeObjets &amp;liste)</div><div class="ttdoc">Procédure initialisant un ListeObjets passé en paramètre. </div><div class="ttdef"><b>Definition:</b> ListeObjets.cpp:6</div></div>
+<div class="ttc" id="structListeObjets_html_abb023142003f84265b55ee66de08d05e"><div class="ttname"><a href="structListeObjets.html#abb023142003f84265b55ee66de08d05e">ListeObjets::listeObjets</a></div><div class="ttdeci">Objet * listeObjets</div><div class="ttdef"><b>Definition:</b> ListeObjets.h:19</div></div>
+<div class="ttc" id="structListeObjets_html"><div class="ttname"><a href="structListeObjets.html">ListeObjets</a></div><div class="ttdoc">Comprend les caractéristiques d&amp;#39;une liste d&amp;#39;Objet. </div><div class="ttdef"><b>Definition:</b> ListeObjets.h:13</div></div>
+<div class="ttc" id="structObjet_html"><div class="ttname"><a href="structObjet.html">Objet</a></div><div class="ttdoc">Comprend les caractéristiques d&amp;#39;un Objet. </div><div class="ttdef"><b>Definition:</b> Objet.h:15</div></div>
+<div class="ttc" id="structListeObjets_html_af4c85a8aaea301d98f395e4f26e93cb0"><div class="ttname"><a href="structListeObjets.html#af4c85a8aaea301d98f395e4f26e93cb0">ListeObjets::nbObjets</a></div><div class="ttdeci">unsigned int nbObjets</div><div class="ttdef"><b>Definition:</b> ListeObjets.h:18</div></div>
+<div class="ttc" id="ListeObjets_8h_html_aa1c02d460e72e72ff481391585ef6f14"><div class="ttname"><a href="ListeObjets_8h.html#aa1c02d460e72e72ff481391585ef6f14">effacerListeObjets</a></div><div class="ttdeci">void effacerListeObjets(ListeObjets &amp;liste)</div><div class="ttdoc">Procédure effaçant un ListeObjets passé en paramètre. </div><div class="ttdef"><b>Definition:</b> ListeObjets.cpp:26</div></div>
+<div class="ttc" id="Objet_8h_html"><div class="ttname"><a href="Objet_8h.html">Objet.h</a></div><div class="ttdoc">Fichier en-tête d&amp;#39;un Objet. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

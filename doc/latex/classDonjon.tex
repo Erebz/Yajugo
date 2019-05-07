@@ -1,0 +1,200 @@
+\hypertarget{classDonjon}{}\section{Référence de la classe Donjon}
+\label{classDonjon}\index{Donjon@{Donjon}}
+
+
+La classe \mbox{\hyperlink{classDonjon}{Donjon}} qui contient les étages.  
+
+
+
+
+{\ttfamily \#include $<$Donjon.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDonjon_abef394a07994262d7cd512a80eab3dfb}\label{classDonjon_abef394a07994262d7cd512a80eab3dfb}} 
+\mbox{\hyperlink{classDonjon_abef394a07994262d7cd512a80eab3dfb}{Donjon}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDonjon_ac48017f89fae7a792d378b5cfc649d86}{Donjon}} (const \mbox{\hyperlink{structInfosDonjon}{Infos\+Donjon}} \&infos, const \mbox{\hyperlink{structListeCases}{Liste\+Cases}} \&lc, const \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} \&lt, const \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \&lo, const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&lcomp)
+\begin{DoxyCompactList}\small\item\em Constructeur par copie. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDonjon_ad35146a4451da9c5a08a67fa69e0c32c}{$\sim$\+Donjon}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classDonjon_ab9eb0d68d0df634cbeb931473cc31ffc}{get\+Nom}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nom du \mbox{\hyperlink{classDonjon}{Donjon}}. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classEtage}{Etage}} \& \mbox{\hyperlink{classDonjon_aa5353e928754eedad69de4c14ad19935}{get\+Etage}} (const unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne l\textquotesingle{}étage demandé \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classEtage}{Etage}} \& \mbox{\hyperlink{classDonjon_ac9e5d39d9a46d7dfc4315b6b0041ab17}{get\+Etage\+Actif}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne l\textquotesingle{}étage actif. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEtage}{Etage}} \& \mbox{\hyperlink{classDonjon_a868c243fbaa68f2da220c91bb7e32e8e}{get\+Etage\+Original}} (const unsigned int i)
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne l\textquotesingle{}étage demandé \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEtage}{Etage}} \& \mbox{\hyperlink{classDonjon_adaf17f262a479ab2ce8e35ef48f8c157}{get\+Etage\+Actif\+Original}} ()
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne l\textquotesingle{}étage actif. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classDonjon_a24a730ec71daad25b5ce79bccc10797d}{get\+Nb\+Etages}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nombre d\textquotesingle{}étages. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classDonjon_a14ee54cc631289310c622540c2cda199}{get\+Nb\+Etages\+Parcourus}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nombre d\textquotesingle{}étages parcourus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDonjon_abe40dcef2369d3e84b2298b0ad019988}{augmenter\+Nb\+Etages\+Parcourus}} ()
+\begin{DoxyCompactList}\small\item\em Procédure\+: Incrémente le nombre d\textquotesingle{}étages parcourus. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \mbox{\hyperlink{classDonjon}{Donjon}} qui contient les étages. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classDonjon_ac48017f89fae7a792d378b5cfc649d86}\label{classDonjon_ac48017f89fae7a792d378b5cfc649d86}} 
+\index{Donjon@{Donjon}!Donjon@{Donjon}}
+\index{Donjon@{Donjon}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{Donjon()}{Donjon()}}
+{\footnotesize\ttfamily Donjon\+::\+Donjon (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structInfosDonjon}{Infos\+Donjon}} \&}]{infos,  }\item[{const \mbox{\hyperlink{structListeCases}{Liste\+Cases}} \&}]{lc,  }\item[{const \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} \&}]{lt,  }\item[{const \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \&}]{lo,  }\item[{const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&}]{lcomp }\end{DoxyParamCaption})}
+
+
+
+Constructeur par copie. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nb\+Etages\+Max} & un nombre d\textquotesingle{}étages maximum \\
+\hline
+\mbox{\tt in}  & {\em lc} & un \mbox{\hyperlink{structListeCases}{Liste\+Cases}} \\
+\hline
+\mbox{\tt in}  & {\em lt} & un \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} \\
+\hline
+\mbox{\tt in}  & {\em lo} & un Liste\+Objetsconst \mbox{\hyperlink{classEtage}{Etage}}\& \mbox{\hyperlink{classDonjon_aa5353e928754eedad69de4c14ad19935}{get\+Etage(const unsigned int i) const}} \\
+\hline
+\mbox{\tt in}  & {\em lcomp} & un \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDonjon_ad35146a4451da9c5a08a67fa69e0c32c}\label{classDonjon_ad35146a4451da9c5a08a67fa69e0c32c}} 
+\index{Donjon@{Donjon}!````~Donjon@{$\sim$\+Donjon}}
+\index{````~Donjon@{$\sim$\+Donjon}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{$\sim$\+Donjon()}{~Donjon()}}
+{\footnotesize\ttfamily Donjon\+::$\sim$\+Donjon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructeur. 
+
+Destructeur de la classe \mbox{\hyperlink{classDonjon}{Donjon}}. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classDonjon_abe40dcef2369d3e84b2298b0ad019988}\label{classDonjon_abe40dcef2369d3e84b2298b0ad019988}} 
+\index{Donjon@{Donjon}!augmenter\+Nb\+Etages\+Parcourus@{augmenter\+Nb\+Etages\+Parcourus}}
+\index{augmenter\+Nb\+Etages\+Parcourus@{augmenter\+Nb\+Etages\+Parcourus}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{augmenter\+Nb\+Etages\+Parcourus()}{augmenterNbEtagesParcourus()}}
+{\footnotesize\ttfamily void Donjon\+::augmenter\+Nb\+Etages\+Parcourus (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Incrémente le nombre d\textquotesingle{}étages parcourus. 
+
+\begin{DoxyRefDesc}{A faire}
+\item[\mbox{\hyperlink{todo__todo000001}{A faire}}]Faire la génération procédurale.~\newline
+Pour la generation procédurale, le donjon devra recevoir des infos \+: nombre d\textquotesingle{}étage, items et monstres trouvables, échelles de niveau depuis une Liste de donjons \end{DoxyRefDesc}
+\mbox{\Hypertarget{classDonjon_aa5353e928754eedad69de4c14ad19935}\label{classDonjon_aa5353e928754eedad69de4c14ad19935}} 
+\index{Donjon@{Donjon}!get\+Etage@{get\+Etage}}
+\index{get\+Etage@{get\+Etage}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{get\+Etage()}{getEtage()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classEtage}{Etage}} \& Donjon\+::get\+Etage (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne l\textquotesingle{}étage demandé 
+
+L\textquotesingle{}indice de l\textquotesingle{}\mbox{\hyperlink{classEtage}{Etage}} à retourner etst pasé en paramètre. ~\newline
+L\textquotesingle{}\mbox{\hyperlink{classEtage}{Etage}} est constant et n\textquotesingle{}est pas modifiable. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, indice de l\textquotesingle{}étage à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classEtage}{Etage}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDonjon_ac9e5d39d9a46d7dfc4315b6b0041ab17}\label{classDonjon_ac9e5d39d9a46d7dfc4315b6b0041ab17}} 
+\index{Donjon@{Donjon}!get\+Etage\+Actif@{get\+Etage\+Actif}}
+\index{get\+Etage\+Actif@{get\+Etage\+Actif}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{get\+Etage\+Actif()}{getEtageActif()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classEtage}{Etage}} \& Donjon\+::get\+Etage\+Actif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne l\textquotesingle{}étage actif. 
+
+L\textquotesingle{}\mbox{\hyperlink{classEtage}{Etage}} est constant et n\textquotesingle{}est pas modifiable. \begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classEtage}{Etage}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDonjon_adaf17f262a479ab2ce8e35ef48f8c157}\label{classDonjon_adaf17f262a479ab2ce8e35ef48f8c157}} 
+\index{Donjon@{Donjon}!get\+Etage\+Actif\+Original@{get\+Etage\+Actif\+Original}}
+\index{get\+Etage\+Actif\+Original@{get\+Etage\+Actif\+Original}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{get\+Etage\+Actif\+Original()}{getEtageActifOriginal()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classEtage}{Etage}} \& Donjon\+::get\+Etage\+Actif\+Original (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction\+: Retourne l\textquotesingle{}étage actif. 
+
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classEtage}{Etage}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDonjon_a868c243fbaa68f2da220c91bb7e32e8e}\label{classDonjon_a868c243fbaa68f2da220c91bb7e32e8e}} 
+\index{Donjon@{Donjon}!get\+Etage\+Original@{get\+Etage\+Original}}
+\index{get\+Etage\+Original@{get\+Etage\+Original}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{get\+Etage\+Original()}{getEtageOriginal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEtage}{Etage}} \& Donjon\+::get\+Etage\+Original (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Fonction\+: Retourne l\textquotesingle{}étage demandé 
+
+L\textquotesingle{}indice de l\textquotesingle{}étage demandé est passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, l\textquotesingle{}indice de l\textquotesingle{}\mbox{\hyperlink{classEtage}{Etage}} à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classEtage}{Etage}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDonjon_a24a730ec71daad25b5ce79bccc10797d}\label{classDonjon_a24a730ec71daad25b5ce79bccc10797d}} 
+\index{Donjon@{Donjon}!get\+Nb\+Etages@{get\+Nb\+Etages}}
+\index{get\+Nb\+Etages@{get\+Nb\+Etages}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{get\+Nb\+Etages()}{getNbEtages()}}
+{\footnotesize\ttfamily unsigned int Donjon\+::get\+Nb\+Etages (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nombre d\textquotesingle{}étages. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDonjon_a14ee54cc631289310c622540c2cda199}\label{classDonjon_a14ee54cc631289310c622540c2cda199}} 
+\index{Donjon@{Donjon}!get\+Nb\+Etages\+Parcourus@{get\+Nb\+Etages\+Parcourus}}
+\index{get\+Nb\+Etages\+Parcourus@{get\+Nb\+Etages\+Parcourus}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{get\+Nb\+Etages\+Parcourus()}{getNbEtagesParcourus()}}
+{\footnotesize\ttfamily unsigned int Donjon\+::get\+Nb\+Etages\+Parcourus (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nombre d\textquotesingle{}étages parcourus. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDonjon_ab9eb0d68d0df634cbeb931473cc31ffc}\label{classDonjon_ab9eb0d68d0df634cbeb931473cc31ffc}} 
+\index{Donjon@{Donjon}!get\+Nom@{get\+Nom}}
+\index{get\+Nom@{get\+Nom}!Donjon@{Donjon}}
+\subsubsection{\texorpdfstring{get\+Nom()}{getNom()}}
+{\footnotesize\ttfamily string Donjon\+::get\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nom du \mbox{\hyperlink{classDonjon}{Donjon}}. 
+
+\begin{DoxyReturn}{Renvoie}
+Un string 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Donjon_8h}{Donjon.\+h}}\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Donjon_8cpp}{Donjon.\+cpp}}\end{DoxyCompactItemize}

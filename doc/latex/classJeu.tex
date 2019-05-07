@@ -1,0 +1,415 @@
+\hypertarget{classJeu}{}\section{Référence de la classe Jeu}
+\label{classJeu}\index{Jeu@{Jeu}}
+
+
+La classe \mbox{\hyperlink{classJeu}{Jeu}} qui contient un \mbox{\hyperlink{classJoueur}{Joueur}} et un \mbox{\hyperlink{classDonjon}{Donjon}}.  
+
+
+
+
+{\ttfamily \#include $<$Jeu.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classJeu_acc5795ee00edf75516d3dfe65be3e6d6}\label{classJeu_acc5795ee00edf75516d3dfe65be3e6d6}} 
+\mbox{\hyperlink{classJeu_acc5795ee00edf75516d3dfe65be3e6d6}{Jeu}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classJeu_a0f4f3c83ee5283ffa550099635f992f7}{Jeu}} (const string \&nom, const string \&nom\+Type)
+\begin{DoxyCompactList}\small\item\em Constructeur pour nouvelle partie. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classJeu_a837f519e29a5e4a437ef1d5af2601a7e}{Jeu}} (const unsigned int i)
+\begin{DoxyCompactList}\small\item\em Constructeur pour lecture depuis fichier. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a9cd19e73df169d7f09397be61ba8548c}\label{classJeu_a9cd19e73df169d7f09397be61ba8548c}} 
+\mbox{\hyperlink{classJeu_a9cd19e73df169d7f09397be61ba8548c}{$\sim$\+Jeu}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJeu_ad47ce612c294306092ce2e3c726934e3}{generer\+Donjon}} (const unsigned int id\+Donjon)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Génère et initialise un \mbox{\hyperlink{classDonjon}{Donjon}} à partir de données prédéfinies. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_aaf3bd9f9545c3854c74f42cc3c0cb58d}\label{classJeu_aaf3bd9f9545c3854c74f42cc3c0cb58d}} 
+void {\bfseries generer\+Joueur} (const string \&nom, const string \&nom\+Type)
+\item 
+void \mbox{\hyperlink{classJeu_ac4a466b8908c8ef5b308bbf27296322b}{generer\+Joueur}} (const unsigned int i)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Génère et initialise un \mbox{\hyperlink{classJoueur}{Joueur}} à partir de données prédéfinies. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classDonjon}{Donjon}} \& \mbox{\hyperlink{classJeu_ada75af8e4be937853af9c56dc087b337}{get\+Donjon}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la référence du \mbox{\hyperlink{classDonjon}{Donjon}}. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classJoueur}{Joueur}} \& \mbox{\hyperlink{classJeu_ac599e64df949f108bcbf87551f568550}{get\+Joueur}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la référence du \mbox{\hyperlink{classJoueur}{Joueur}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDonjon}{Donjon}} \& \mbox{\hyperlink{classJeu_a439365f38115af1b3cfcd1cb1c3fa6ce}{get\+Donjon\+Original}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la référence du \mbox{\hyperlink{classDonjon}{Donjon}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classJoueur}{Joueur}} \& \mbox{\hyperlink{classJeu_a22122d0bdd43f02109ef25d6874686c8}{get\+Joueur\+Original}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la référence du \mbox{\hyperlink{classJoueur}{Joueur}}. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \& \mbox{\hyperlink{classJeu_ac7917f690a8dd29b9af1278a907edbfb}{get\+Liste\+Competences}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la référence de la \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}}. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} \& \mbox{\hyperlink{classJeu_ab7033079ca4b29a4673da3a799626a0a}{get\+Liste\+Types\+Ennemis}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la référence de la \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}}. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structListeCases}{Liste\+Cases}} \& \mbox{\hyperlink{classJeu_a9682a359e29f9f60e73ea05c36712b46}{get\+Liste\+Cases}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la référence de la \mbox{\hyperlink{structListeCases}{Liste\+Cases}}. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \& \mbox{\hyperlink{classJeu_a11834724f2c7851c06aa9896529b8aa2}{get\+Liste\+Objets}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la référence de la \mbox{\hyperlink{structListeObjets}{Liste\+Objets}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a3ca77e8078c77eefc38040f90c0d5ad0}\label{classJeu_a3ca77e8078c77eefc38040f90c0d5ad0}} 
+const \mbox{\hyperlink{structListeDonjons}{Liste\+Donjons}} \& {\bfseries get\+Liste\+Donjons} () const
+\item 
+\mbox{\Hypertarget{classJeu_a5f3c6467e26ab3de39bd036cfccdac0f}\label{classJeu_a5f3c6467e26ab3de39bd036cfccdac0f}} 
+void \mbox{\hyperlink{classJeu_a5f3c6467e26ab3de39bd036cfccdac0f}{monter\+Etage\+Suivant}} ()
+\begin{DoxyCompactList}\small\item\em Procédure\+: Change d\textquotesingle{}étage. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classJeu_a9aee681503308eea33750298585ad17c}{action\+Clavier\+Deplacement\+Joueur}} (const char touche)
+\begin{DoxyCompactList}\small\item\em Fonction\+: Indique si le joueur appuie sur une flèche du clavier. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classJeu_a9844f25bb777e1897f574347548258a3}{joueur\+Utilise\+Competence}} (\mbox{\hyperlink{structCompetence}{Competence}} $\ast$comp, unsigned int \&nb\+Ennemis\+Touches, string $\ast$\&ennemis, unsigned int $\ast$\&degats, unsigned int \&xp)
+\begin{DoxyCompactList}\small\item\em Fonction\+: Traite l\textquotesingle{}utilisation d\textquotesingle{}une compétence. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classJeu_a9c40989524484aad81e3fa4e8673b45a}{ieme\+Ennemi\+Utilise\+Competence}} (unsigned int i, \mbox{\hyperlink{structCompetence}{Competence}} $\ast$comp, unsigned int \&degats)
+\begin{DoxyCompactList}\small\item\em Applique une compétence connue d\textquotesingle{}un ennemi\$. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classJeu_a3e6c39f607eed6ee70c96823e0d41415}{ieme\+Ennemi\+Pres\+De\+Joueur}} (unsigned int id\+Ennemi)
+\begin{DoxyCompactList}\small\item\em Fonction\+: Indique si un certain ennemi se situe sur une case adjacente au joueur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJeu_a5638afe1c5fce321b8819461e6e15299}{deplacer\+Ieme\+Ennemi}} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Change la position d\textquotesingle{}un ennemi. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classJeu_ae477b39ff28b2e999ea6ceb520be6e27}{ieme\+Sauvegarde\+Existante}} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Vérifie si une certaine sauvegarde existe. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classJeu_aa37d1a48e9f4e8799786128f9a258860}{get\+Infos\+Ieme\+Sauvegarde}} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne les info d\textquotesingle{}une certaine sauvegarde. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classJeu_a46b4527da48e2a41da6b1e3f39ef49f8}{sauvegarder\+Dans\+Ieme\+Fichier}} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Procédure\+: Sauvegarde les infos du jeu dans un certain fichier. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a03c30f1a218a7666d6b35d470d599b57}\label{classJeu_a03c30f1a218a7666d6b35d470d599b57}} 
+void {\bfseries supprimer\+Ieme\+Sauvegarde} (const unsigned int i) const
+\item 
+\mbox{\Hypertarget{classJeu_af8e003244df8b60a767af284239e95c0}\label{classJeu_af8e003244df8b60a767af284239e95c0}} 
+unsigned int {\bfseries id\+Objet} (const \mbox{\hyperlink{structObjet}{Objet}} $\ast$obj) const
+\item 
+\mbox{\Hypertarget{classJeu_ae50a991ae2a99cf513b0e01c67c828ae}\label{classJeu_ae50a991ae2a99cf513b0e01c67c828ae}} 
+unsigned int {\bfseries id\+Ennemi} (const \mbox{\hyperlink{classEnnemi}{Ennemi}} $\ast$ennmi) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \mbox{\hyperlink{classJeu}{Jeu}} qui contient un \mbox{\hyperlink{classJoueur}{Joueur}} et un \mbox{\hyperlink{classDonjon}{Donjon}}. 
+
+La classe \mbox{\hyperlink{classJeu}{Jeu}} est la classe qui instancie la partie (hors-\/menu principal et options) 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classJeu_a0f4f3c83ee5283ffa550099635f992f7}\label{classJeu_a0f4f3c83ee5283ffa550099635f992f7}} 
+\index{Jeu@{Jeu}!Jeu@{Jeu}}
+\index{Jeu@{Jeu}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{Jeu()}{Jeu()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Jeu\+::\+Jeu (\begin{DoxyParamCaption}\item[{const string \&}]{nom,  }\item[{const string \&}]{nom\+Type }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour nouvelle partie. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nom} & un string \\
+\hline
+\mbox{\tt in}  & {\em nom\+Type} & un string \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJeu_a837f519e29a5e4a437ef1d5af2601a7e}\label{classJeu_a837f519e29a5e4a437ef1d5af2601a7e}} 
+\index{Jeu@{Jeu}!Jeu@{Jeu}}
+\index{Jeu@{Jeu}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{Jeu()}{Jeu()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Jeu\+::\+Jeu (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour lecture depuis fichier. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classJeu_a9aee681503308eea33750298585ad17c}\label{classJeu_a9aee681503308eea33750298585ad17c}} 
+\index{Jeu@{Jeu}!action\+Clavier\+Deplacement\+Joueur@{action\+Clavier\+Deplacement\+Joueur}}
+\index{action\+Clavier\+Deplacement\+Joueur@{action\+Clavier\+Deplacement\+Joueur}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{action\+Clavier\+Deplacement\+Joueur()}{actionClavierDeplacementJoueur()}}
+{\footnotesize\ttfamily bool Jeu\+::action\+Clavier\+Deplacement\+Joueur (\begin{DoxyParamCaption}\item[{const char}]{touche }\end{DoxyParamCaption})}
+
+
+
+Fonction\+: Indique si le joueur appuie sur une flèche du clavier. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em touche} & un char \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un booléen 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a5638afe1c5fce321b8819461e6e15299}\label{classJeu_a5638afe1c5fce321b8819461e6e15299}} 
+\index{Jeu@{Jeu}!deplacer\+Ieme\+Ennemi@{deplacer\+Ieme\+Ennemi}}
+\index{deplacer\+Ieme\+Ennemi@{deplacer\+Ieme\+Ennemi}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{deplacer\+Ieme\+Ennemi()}{deplacerIemeEnnemi()}}
+{\footnotesize\ttfamily void Jeu\+::deplacer\+Ieme\+Ennemi (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Change la position d\textquotesingle{}un ennemi. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, lindice de l\textquotesingle{}ennemi \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJeu_ad47ce612c294306092ce2e3c726934e3}\label{classJeu_ad47ce612c294306092ce2e3c726934e3}} 
+\index{Jeu@{Jeu}!generer\+Donjon@{generer\+Donjon}}
+\index{generer\+Donjon@{generer\+Donjon}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{generer\+Donjon()}{genererDonjon()}}
+{\footnotesize\ttfamily void Jeu\+::generer\+Donjon (\begin{DoxyParamCaption}\item[{const unsigned int}]{id\+Donjon }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Génère et initialise un \mbox{\hyperlink{classDonjon}{Donjon}} à partir de données prédéfinies. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em id\+Donjon} & un unsigned int , l\textquotesingle{}indice du \mbox{\hyperlink{classDonjon}{Donjon}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJeu_ac4a466b8908c8ef5b308bbf27296322b}\label{classJeu_ac4a466b8908c8ef5b308bbf27296322b}} 
+\index{Jeu@{Jeu}!generer\+Joueur@{generer\+Joueur}}
+\index{generer\+Joueur@{generer\+Joueur}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{generer\+Joueur()}{genererJoueur()}}
+{\footnotesize\ttfamily void Jeu\+::generer\+Joueur (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Génère et initialise un \mbox{\hyperlink{classJoueur}{Joueur}} à partir de données prédéfinies. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em i} & un unsigned int, indice du \mbox{\hyperlink{classJoueur}{Joueur}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classJeu_ada75af8e4be937853af9c56dc087b337}\label{classJeu_ada75af8e4be937853af9c56dc087b337}} 
+\index{Jeu@{Jeu}!get\+Donjon@{get\+Donjon}}
+\index{get\+Donjon@{get\+Donjon}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Donjon()}{getDonjon()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classDonjon}{Donjon}} \& Jeu\+::get\+Donjon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la référence du \mbox{\hyperlink{classDonjon}{Donjon}}. 
+
+Le \mbox{\hyperlink{classDonjon}{Donjon}} retourné est constant et non modifiable. \begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classDonjon}{Donjon}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a439365f38115af1b3cfcd1cb1c3fa6ce}\label{classJeu_a439365f38115af1b3cfcd1cb1c3fa6ce}} 
+\index{Jeu@{Jeu}!get\+Donjon\+Original@{get\+Donjon\+Original}}
+\index{get\+Donjon\+Original@{get\+Donjon\+Original}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Donjon\+Original()}{getDonjonOriginal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDonjon}{Donjon}} \& Jeu\+::get\+Donjon\+Original (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la référence du \mbox{\hyperlink{classDonjon}{Donjon}}. 
+
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classDonjon}{Donjon}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_aa37d1a48e9f4e8799786128f9a258860}\label{classJeu_aa37d1a48e9f4e8799786128f9a258860}} 
+\index{Jeu@{Jeu}!get\+Infos\+Ieme\+Sauvegarde@{get\+Infos\+Ieme\+Sauvegarde}}
+\index{get\+Infos\+Ieme\+Sauvegarde@{get\+Infos\+Ieme\+Sauvegarde}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Infos\+Ieme\+Sauvegarde()}{getInfosIemeSauvegarde()}}
+{\footnotesize\ttfamily string Jeu\+::get\+Infos\+Ieme\+Sauvegarde (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne les info d\textquotesingle{}une certaine sauvegarde. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, indice de la sauvegard à charger \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_ac599e64df949f108bcbf87551f568550}\label{classJeu_ac599e64df949f108bcbf87551f568550}} 
+\index{Jeu@{Jeu}!get\+Joueur@{get\+Joueur}}
+\index{get\+Joueur@{get\+Joueur}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Joueur()}{getJoueur()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classJoueur}{Joueur}} \& Jeu\+::get\+Joueur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la référence du \mbox{\hyperlink{classJoueur}{Joueur}}. 
+
+Le \mbox{\hyperlink{classJoueur}{Joueur}} retourné est constant et non modifiable \begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classJoueur}{Joueur}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a22122d0bdd43f02109ef25d6874686c8}\label{classJeu_a22122d0bdd43f02109ef25d6874686c8}} 
+\index{Jeu@{Jeu}!get\+Joueur\+Original@{get\+Joueur\+Original}}
+\index{get\+Joueur\+Original@{get\+Joueur\+Original}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Joueur\+Original()}{getJoueurOriginal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoueur}{Joueur}} \& Jeu\+::get\+Joueur\+Original (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la référence du \mbox{\hyperlink{classJoueur}{Joueur}}. 
+
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{classJoueur}{Joueur}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a9682a359e29f9f60e73ea05c36712b46}\label{classJeu_a9682a359e29f9f60e73ea05c36712b46}} 
+\index{Jeu@{Jeu}!get\+Liste\+Cases@{get\+Liste\+Cases}}
+\index{get\+Liste\+Cases@{get\+Liste\+Cases}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Liste\+Cases()}{getListeCases()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structListeCases}{Liste\+Cases}} \& Jeu\+::get\+Liste\+Cases (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la référence de la \mbox{\hyperlink{structListeCases}{Liste\+Cases}}. 
+
+La \mbox{\hyperlink{structListeCases}{Liste\+Cases}} retournée est constante et non modifiable. \begin{DoxyReturn}{Renvoie}
+Une \mbox{\hyperlink{structListeCases}{Liste\+Cases}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_ac7917f690a8dd29b9af1278a907edbfb}\label{classJeu_ac7917f690a8dd29b9af1278a907edbfb}} 
+\index{Jeu@{Jeu}!get\+Liste\+Competences@{get\+Liste\+Competences}}
+\index{get\+Liste\+Competences@{get\+Liste\+Competences}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Liste\+Competences()}{getListeCompetences()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \& Jeu\+::get\+Liste\+Competences (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la référence de la \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}}. 
+
+La \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} retournée est constante et non modifiable. \begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a11834724f2c7851c06aa9896529b8aa2}\label{classJeu_a11834724f2c7851c06aa9896529b8aa2}} 
+\index{Jeu@{Jeu}!get\+Liste\+Objets@{get\+Liste\+Objets}}
+\index{get\+Liste\+Objets@{get\+Liste\+Objets}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Liste\+Objets()}{getListeObjets()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} \& Jeu\+::get\+Liste\+Objets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la référence de la \mbox{\hyperlink{structListeObjets}{Liste\+Objets}}. 
+
+La \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} retournée est constante et non modifiable. \begin{DoxyReturn}{Renvoie}
+Une \mbox{\hyperlink{structListeObjets}{Liste\+Objets}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_ab7033079ca4b29a4673da3a799626a0a}\label{classJeu_ab7033079ca4b29a4673da3a799626a0a}} 
+\index{Jeu@{Jeu}!get\+Liste\+Types\+Ennemis@{get\+Liste\+Types\+Ennemis}}
+\index{get\+Liste\+Types\+Ennemis@{get\+Liste\+Types\+Ennemis}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{get\+Liste\+Types\+Ennemis()}{getListeTypesEnnemis()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} \& Jeu\+::get\+Liste\+Types\+Ennemis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la référence de la \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}}. 
+
+La \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} retournée est constante et non modifiable. \begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{structListeTypesEnnemis}{Liste\+Types\+Ennemis}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a3e6c39f607eed6ee70c96823e0d41415}\label{classJeu_a3e6c39f607eed6ee70c96823e0d41415}} 
+\index{Jeu@{Jeu}!ieme\+Ennemi\+Pres\+De\+Joueur@{ieme\+Ennemi\+Pres\+De\+Joueur}}
+\index{ieme\+Ennemi\+Pres\+De\+Joueur@{ieme\+Ennemi\+Pres\+De\+Joueur}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{ieme\+Ennemi\+Pres\+De\+Joueur()}{iemeEnnemiPresDeJoueur()}}
+{\footnotesize\ttfamily bool Jeu\+::ieme\+Ennemi\+Pres\+De\+Joueur (\begin{DoxyParamCaption}\item[{unsigned int}]{id\+Ennemi }\end{DoxyParamCaption})}
+
+
+
+Fonction\+: Indique si un certain ennemi se situe sur une case adjacente au joueur. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in,out}  & {\em id\+Ennemi} & un unsigned int, indice de l\textquotesingle{}ennemi \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un booléen, true si l\textquotesingle{}ennemi se trouve sur une case adjacente au joueur, false sinon. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a9c40989524484aad81e3fa4e8673b45a}\label{classJeu_a9c40989524484aad81e3fa4e8673b45a}} 
+\index{Jeu@{Jeu}!ieme\+Ennemi\+Utilise\+Competence@{ieme\+Ennemi\+Utilise\+Competence}}
+\index{ieme\+Ennemi\+Utilise\+Competence@{ieme\+Ennemi\+Utilise\+Competence}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{ieme\+Ennemi\+Utilise\+Competence()}{iemeEnnemiUtiliseCompetence()}}
+{\footnotesize\ttfamily bool Jeu\+::ieme\+Ennemi\+Utilise\+Competence (\begin{DoxyParamCaption}\item[{unsigned int}]{i,  }\item[{\mbox{\hyperlink{structCompetence}{Competence}} $\ast$}]{comp,  }\item[{unsigned int \&}]{degats }\end{DoxyParamCaption})}
+
+
+
+Applique une compétence connue d\textquotesingle{}un ennemi\$. 
+
+Si la compétence passe le test de précision, la fonction renvoie true et la compétence est effectivement appliquée. Les paramètres en données-\/résultats sont modifiés en conséquence.~\newline
+Si la compétence échoue au test de précision, la fontion renvoie false, la compétence n\textquotesingle{}est pas appliquée et les paramètres en données-\/résultats ne sont pas modifiés.~\newline
+La compétence et l\textquotesingle{}indice de l\textquotesingle{}ennemi sont passés en paramètres. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in,out}  & {\em i} & un unsigned int, indice de l\textquotesingle{}ennemi qui utilise la compétence \\
+\hline
+\mbox{\tt in,out}  & {\em comp} & un pointeur de Compétence, la compétence utilisée \\
+\hline
+\mbox{\tt in,out}  & {\em degats} & un unsigned int, le nombre de dégâts que produit la compétence \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un booléen, true si la compétence passe le test de précision, false si elle échoue. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_ae477b39ff28b2e999ea6ceb520be6e27}\label{classJeu_ae477b39ff28b2e999ea6ceb520be6e27}} 
+\index{Jeu@{Jeu}!ieme\+Sauvegarde\+Existante@{ieme\+Sauvegarde\+Existante}}
+\index{ieme\+Sauvegarde\+Existante@{ieme\+Sauvegarde\+Existante}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{ieme\+Sauvegarde\+Existante()}{iemeSauvegardeExistante()}}
+{\footnotesize\ttfamily bool Jeu\+::ieme\+Sauvegarde\+Existante (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Vérifie si une certaine sauvegarde existe. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in,out}  & {\em i} & un unsigned int, indice de la suavegarde à vérifier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un booléen, true si la sauvegarde existe, false sinon 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a9844f25bb777e1897f574347548258a3}\label{classJeu_a9844f25bb777e1897f574347548258a3}} 
+\index{Jeu@{Jeu}!joueur\+Utilise\+Competence@{joueur\+Utilise\+Competence}}
+\index{joueur\+Utilise\+Competence@{joueur\+Utilise\+Competence}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{joueur\+Utilise\+Competence()}{joueurUtiliseCompetence()}}
+{\footnotesize\ttfamily bool Jeu\+::joueur\+Utilise\+Competence (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structCompetence}{Competence}} $\ast$}]{comp,  }\item[{unsigned int \&}]{nb\+Ennemis\+Touches,  }\item[{string $\ast$\&}]{ennemis,  }\item[{unsigned int $\ast$\&}]{degats,  }\item[{unsigned int \&}]{xp }\end{DoxyParamCaption})}
+
+
+
+Fonction\+: Traite l\textquotesingle{}utilisation d\textquotesingle{}une compétence. 
+
+Si la compétence passe le test de précision, la fonction renvoie true et la compétence est effectivement appliquée. Les paramètres en données-\/résultats sont modifiés en conséquence.~\newline
+Si la compétence échoue au test de précision, la fontion renvoie false, la compétence n\textquotesingle{}est pas appliquée et les paramètres en données-\/résultats ne sont pas modifiés.~\newline
+La compétence utilisée est passée en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in,out}  & {\em comp} & un pointeur vers une \mbox{\hyperlink{structCompetence}{Competence}}, pointe vers la compétence que le joueur veut utiliser \\
+\hline
+\mbox{\tt in,out}  & {\em nb\+Ennemis\+Touches} & un unsigned int, compte le nombre d\textquotesingle{}ennemis touchés (si la compétence passe le test de précision) \\
+\hline
+\mbox{\tt in,out}  & {\em ennemis} & un pointeur vers un tableau de string, chaîne de caractères, listant les noms des ennemis touchés par la compétence respectivement (si la compétence passe le test de précision) \\
+\hline
+\mbox{\tt in,out}  & {\em degats} & un pointeur vers un tableau d\textquotesingle{}unsigned int, listant les dégâts des ennemis touchés par la compétence respectivement (si la compétence passe le test de précision) \\
+\hline
+\mbox{\tt in,out}  & {\em xp} & un unsigned int, somme les points d\textquotesingle{}expérience gagnés des ennemis vaincus par la compétence (si la compétence passe le test de précision) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un booléen, true si la compétence passe le test de précision, false si elle échoue. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classJeu_a46b4527da48e2a41da6b1e3f39ef49f8}\label{classJeu_a46b4527da48e2a41da6b1e3f39ef49f8}} 
+\index{Jeu@{Jeu}!sauvegarder\+Dans\+Ieme\+Fichier@{sauvegarder\+Dans\+Ieme\+Fichier}}
+\index{sauvegarder\+Dans\+Ieme\+Fichier@{sauvegarder\+Dans\+Ieme\+Fichier}!Jeu@{Jeu}}
+\subsubsection{\texorpdfstring{sauvegarder\+Dans\+Ieme\+Fichier()}{sauvegarderDansIemeFichier()}}
+{\footnotesize\ttfamily void Jeu\+::sauvegarder\+Dans\+Ieme\+Fichier (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Procédure\+: Sauvegarde les infos du jeu dans un certain fichier. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, l\textquotesingle{}indice du fichier de sauvegarde \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Jeu_8h}{Jeu.\+h}}\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/Jeu.\+cpp\end{DoxyCompactItemize}

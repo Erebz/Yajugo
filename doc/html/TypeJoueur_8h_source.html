@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>YaJuGo Donjon:  Fichier source de /home/etu/p1709958/GitLIFAP4/donjon/YaJuGo/src/core/TypeJoueur.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">YaJuGo Donjon
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">TypeJoueur.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="TypeJoueur_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef TYPEJOUEUR_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define TYPEJOUEUR_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span> </div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>; </div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structTypeJoueur.html">   13</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structTypeJoueur.html">TypeJoueur</a> { </div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#a66919412973844922efebb6b0a0a95b8">   15</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structTypeJoueur.html#a66919412973844922efebb6b0a0a95b8">nom</a>; </div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#abdaca872c129dc3d31a9e2aa23d994f6">   16</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structTypeJoueur.html#abdaca872c129dc3d31a9e2aa23d994f6">coeffPvMin</a>; </div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#a3ad5af235c91cc96e6fac4886a2ff8b0">   17</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structTypeJoueur.html#a3ad5af235c91cc96e6fac4886a2ff8b0">coeffManaMin</a>; </div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#afaf6b4017f0bf253544c4c13406bc6ca">   18</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structTypeJoueur.html#afaf6b4017f0bf253544c4c13406bc6ca">coeffAtkMin</a>; </div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#a02b4dc5d0f6165cbfa7beb6814909a71">   19</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structTypeJoueur.html#a02b4dc5d0f6165cbfa7beb6814909a71">coeffDefMin</a>; </div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#a68bb43ea61e33dd320a0aff87c9463b4">   20</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structTypeJoueur.html#a68bb43ea61e33dd320a0aff87c9463b4">coeffPvMax</a>; </div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#a372a71f7a1fa2477f25369ffa6bccf00">   21</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structTypeJoueur.html#a372a71f7a1fa2477f25369ffa6bccf00">coeffManaMax</a>; </div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#a913539852155d8d9cd7a6bf701924ea2">   22</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structTypeJoueur.html#a913539852155d8d9cd7a6bf701924ea2">coeffAtkMax</a>; </div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#a4d1bbb9bc416de504f8cfe6c16fb4993">   23</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structTypeJoueur.html#a4d1bbb9bc416de504f8cfe6c16fb4993">coeffDefMax</a>; </div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#ac57617d27d138c78f338f78a359a77dd">   24</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structTypeJoueur.html#ac57617d27d138c78f338f78a359a77dd">nbApprentissagesMax</a>; </div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structTypeJoueur.html#a360f632afa23803fc525c5c58368cbb4">   25</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * <a class="code" href="structTypeJoueur.html#a360f632afa23803fc525c5c58368cbb4">caps</a>; </div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * competences; </div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> <a class="code" href="TypeJoueur_8h.html#abb756954329b288066c8709ec6cc0d20">initialiserTypeJoueur</a>(<a class="code" href="structTypeJoueur.html">TypeJoueur</a> &amp;t, <span class="keyword">const</span> <span class="keywordtype">string</span> &amp;nomType);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="TypeJoueur_8h.html#ae0088bdd506f5136751df28a8e78bd1d">effacerTypeJoueur</a>(<a class="code" href="structTypeJoueur.html">TypeJoueur</a> &amp;t);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif // TYPEJOUEUR_H</span></div><div class="ttc" id="structTypeJoueur_html_abdaca872c129dc3d31a9e2aa23d994f6"><div class="ttname"><a href="structTypeJoueur.html#abdaca872c129dc3d31a9e2aa23d994f6">TypeJoueur::coeffPvMin</a></div><div class="ttdeci">float coeffPvMin</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:16</div></div>
+<div class="ttc" id="structTypeJoueur_html_a4d1bbb9bc416de504f8cfe6c16fb4993"><div class="ttname"><a href="structTypeJoueur.html#a4d1bbb9bc416de504f8cfe6c16fb4993">TypeJoueur::coeffDefMax</a></div><div class="ttdeci">float coeffDefMax</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:23</div></div>
+<div class="ttc" id="structTypeJoueur_html_a913539852155d8d9cd7a6bf701924ea2"><div class="ttname"><a href="structTypeJoueur.html#a913539852155d8d9cd7a6bf701924ea2">TypeJoueur::coeffAtkMax</a></div><div class="ttdeci">float coeffAtkMax</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:22</div></div>
+<div class="ttc" id="structTypeJoueur_html_a68bb43ea61e33dd320a0aff87c9463b4"><div class="ttname"><a href="structTypeJoueur.html#a68bb43ea61e33dd320a0aff87c9463b4">TypeJoueur::coeffPvMax</a></div><div class="ttdeci">float coeffPvMax</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:20</div></div>
+<div class="ttc" id="structTypeJoueur_html_a360f632afa23803fc525c5c58368cbb4"><div class="ttname"><a href="structTypeJoueur.html#a360f632afa23803fc525c5c58368cbb4">TypeJoueur::caps</a></div><div class="ttdeci">unsigned int * caps</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:25</div></div>
+<div class="ttc" id="structTypeJoueur_html"><div class="ttname"><a href="structTypeJoueur.html">TypeJoueur</a></div><div class="ttdoc">Comprend les caractéristiques d&amp;#39;un type de Joueur. </div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:13</div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="structTypeJoueur_html_afaf6b4017f0bf253544c4c13406bc6ca"><div class="ttname"><a href="structTypeJoueur.html#afaf6b4017f0bf253544c4c13406bc6ca">TypeJoueur::coeffAtkMin</a></div><div class="ttdeci">float coeffAtkMin</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:18</div></div>
+<div class="ttc" id="structTypeJoueur_html_a3ad5af235c91cc96e6fac4886a2ff8b0"><div class="ttname"><a href="structTypeJoueur.html#a3ad5af235c91cc96e6fac4886a2ff8b0">TypeJoueur::coeffManaMin</a></div><div class="ttdeci">float coeffManaMin</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:17</div></div>
+<div class="ttc" id="structTypeJoueur_html_a66919412973844922efebb6b0a0a95b8"><div class="ttname"><a href="structTypeJoueur.html#a66919412973844922efebb6b0a0a95b8">TypeJoueur::nom</a></div><div class="ttdeci">string nom</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:15</div></div>
+<div class="ttc" id="TypeJoueur_8h_html_ae0088bdd506f5136751df28a8e78bd1d"><div class="ttname"><a href="TypeJoueur_8h.html#ae0088bdd506f5136751df28a8e78bd1d">effacerTypeJoueur</a></div><div class="ttdeci">void effacerTypeJoueur(TypeJoueur &amp;t)</div><div class="ttdoc">Procédure: Efface le TypeJoueur passé en paramètre. </div><div class="ttdef"><b>Definition:</b> TypeJoueur.cpp:31</div></div>
+<div class="ttc" id="structTypeJoueur_html_a372a71f7a1fa2477f25369ffa6bccf00"><div class="ttname"><a href="structTypeJoueur.html#a372a71f7a1fa2477f25369ffa6bccf00">TypeJoueur::coeffManaMax</a></div><div class="ttdeci">float coeffManaMax</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:21</div></div>
+<div class="ttc" id="TypeJoueur_8h_html_abb756954329b288066c8709ec6cc0d20"><div class="ttname"><a href="TypeJoueur_8h.html#abb756954329b288066c8709ec6cc0d20">initialiserTypeJoueur</a></div><div class="ttdeci">void initialiserTypeJoueur(TypeJoueur &amp;t, const string &amp;nomType)</div><div class="ttdoc">Procédure: Initialise un type de joueur. </div><div class="ttdef"><b>Definition:</b> TypeJoueur.cpp:5</div></div>
+<div class="ttc" id="structTypeJoueur_html_ac57617d27d138c78f338f78a359a77dd"><div class="ttname"><a href="structTypeJoueur.html#ac57617d27d138c78f338f78a359a77dd">TypeJoueur::nbApprentissagesMax</a></div><div class="ttdeci">unsigned int nbApprentissagesMax</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:24</div></div>
+<div class="ttc" id="structTypeJoueur_html_a02b4dc5d0f6165cbfa7beb6814909a71"><div class="ttname"><a href="structTypeJoueur.html#a02b4dc5d0f6165cbfa7beb6814909a71">TypeJoueur::coeffDefMin</a></div><div class="ttdeci">float coeffDefMin</div><div class="ttdef"><b>Definition:</b> TypeJoueur.h:19</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

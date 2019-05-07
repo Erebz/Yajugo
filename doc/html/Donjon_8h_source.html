@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>YaJuGo Donjon:  Fichier source de /home/etu/p1709958/GitLIFAP4/donjon/YaJuGo/src/core/Donjon.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">YaJuGo Donjon
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Donjon.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Donjon_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DONJON_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DONJON_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ListeCases_8h.html">ListeCases.h</a>&quot;</span> </div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ListeCompetences_8h.html">ListeCompetences.h</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ListeTypesEnnemis_8h.html">ListeTypesEnnemis.h</a>&quot;</span> </div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ListeObjets_8h.html">ListeObjets.h</a>&quot;</span> </div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ListeDonjons_8h.html">ListeDonjons.h</a>&quot;</span> </div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Etage_8h.html">Etage.h</a>&quot;</span> </div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classDonjon.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDonjon.html">Donjon</a>{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <a class="code" href="classDonjon.html#abef394a07994262d7cd512a80eab3dfb">Donjon</a>();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <a class="code" href="classDonjon.html#abef394a07994262d7cd512a80eab3dfb">Donjon</a>(<span class="keyword">const</span> <a class="code" href="structInfosDonjon.html">InfosDonjon</a> &amp;infos, <span class="keyword">const</span> <a class="code" href="structListeCases.html">ListeCases</a> &amp; lc, <span class="keyword">const</span> <a class="code" href="structListeTypesEnnemis.html">ListeTypesEnnemis</a> &amp; lt, <span class="keyword">const</span> <a class="code" href="structListeObjets.html">ListeObjets</a> &amp; lo, <span class="keyword">const</span> <a class="code" href="structListeCompetences.html">ListeCompetences</a> &amp; lcomp);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <a class="code" href="classDonjon.html#ad35146a4451da9c5a08a67fa69e0c32c">~Donjon</a>();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="comment">//const Etage&amp; getEtageActif()const;</span></div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"></span>  <span class="keywordtype">string</span> <a class="code" href="classDonjon.html#ab9eb0d68d0df634cbeb931473cc31ffc">getNom</a>()<span class="keyword">const</span>;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keyword">const</span> <a class="code" href="classEtage.html">Etage</a>&amp; <a class="code" href="classDonjon.html#aa5353e928754eedad69de4c14ad19935">getEtage</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i) <span class="keyword">const</span>;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keyword">const</span> <a class="code" href="classEtage.html">Etage</a>&amp; <a class="code" href="classDonjon.html#ac9e5d39d9a46d7dfc4315b6b0041ab17">getEtageActif</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <a class="code" href="classEtage.html">Etage</a>&amp; <a class="code" href="classDonjon.html#a868c243fbaa68f2da220c91bb7e32e8e">getEtageOriginal</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <a class="code" href="classEtage.html">Etage</a>&amp; <a class="code" href="classDonjon.html#adaf17f262a479ab2ce8e35ef48f8c157">getEtageActifOriginal</a>();</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classDonjon.html#a24a730ec71daad25b5ce79bccc10797d">getNbEtages</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classDonjon.html#a14ee54cc631289310c622540c2cda199">getNbEtagesParcourus</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classDonjon.html#abe40dcef2369d3e84b2298b0ad019988">augmenterNbEtagesParcourus</a>();</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="comment">//Etage etageActif; //solution à adopter à termes mais sans génération procédurale c&#39;est pas utile</span></div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  <span class="keywordtype">string</span> nom;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  <a class="code" href="classEtage.html">Etage</a> * etages;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nbEtages;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nbEtagesParcourus;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;};</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">#endif // DONJON_H</span></div><div class="ttc" id="structInfosDonjon_html"><div class="ttname"><a href="structInfosDonjon.html">InfosDonjon</a></div><div class="ttdoc">Renseigne les données d&amp;#39;un Donjon. </div><div class="ttdef"><b>Definition:</b> ListeDonjons.h:30</div></div>
+<div class="ttc" id="ListeCases_8h_html"><div class="ttname"><a href="ListeCases_8h.html">ListeCases.h</a></div><div class="ttdoc">Fichier en-tête d&amp;#39;une listes de Case. </div></div>
+<div class="ttc" id="classDonjon_html_ac9e5d39d9a46d7dfc4315b6b0041ab17"><div class="ttname"><a href="classDonjon.html#ac9e5d39d9a46d7dfc4315b6b0041ab17">Donjon::getEtageActif</a></div><div class="ttdeci">const Etage &amp; getEtageActif() const</div><div class="ttdoc">Fonction: Retourne l&amp;#39;étage actif. </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:50</div></div>
+<div class="ttc" id="structListeCompetences_html"><div class="ttname"><a href="structListeCompetences.html">ListeCompetences</a></div><div class="ttdoc">Comprend les caractéristiques d&amp;#39;une liste de Competence. </div><div class="ttdef"><b>Definition:</b> ListeCompetences.h:12</div></div>
+<div class="ttc" id="structListeTypesEnnemis_html"><div class="ttname"><a href="structListeTypesEnnemis.html">ListeTypesEnnemis</a></div><div class="ttdoc">Comprend les caractéristiques d&amp;#39;une liste de TypeEnnemi. </div><div class="ttdef"><b>Definition:</b> ListeTypesEnnemis.h:13</div></div>
+<div class="ttc" id="structListeObjets_html"><div class="ttname"><a href="structListeObjets.html">ListeObjets</a></div><div class="ttdoc">Comprend les caractéristiques d&amp;#39;une liste d&amp;#39;Objet. </div><div class="ttdef"><b>Definition:</b> ListeObjets.h:13</div></div>
+<div class="ttc" id="classDonjon_html_ad35146a4451da9c5a08a67fa69e0c32c"><div class="ttname"><a href="classDonjon.html#ad35146a4451da9c5a08a67fa69e0c32c">Donjon::~Donjon</a></div><div class="ttdeci">~Donjon()</div><div class="ttdoc">Destructeur. </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:30</div></div>
+<div class="ttc" id="Etage_8h_html"><div class="ttname"><a href="Etage_8h.html">Etage.h</a></div><div class="ttdoc">Fichier en-tête de la classe Etage. </div></div>
+<div class="ttc" id="ListeCompetences_8h_html"><div class="ttname"><a href="ListeCompetences_8h.html">ListeCompetences.h</a></div><div class="ttdoc">Fichier en-tête d&amp;#39;une liste de Competence. </div></div>
+<div class="ttc" id="ListeDonjons_8h_html"><div class="ttname"><a href="ListeDonjons_8h.html">ListeDonjons.h</a></div><div class="ttdoc">Fichier en-tête des structures InfosEtage, InfosDonjon et ListeDonjons. </div></div>
+<div class="ttc" id="classDonjon_html"><div class="ttname"><a href="classDonjon.html">Donjon</a></div><div class="ttdoc">La classe Donjon qui contient les étages. </div><div class="ttdef"><b>Definition:</b> Donjon.h:26</div></div>
+<div class="ttc" id="classDonjon_html_abef394a07994262d7cd512a80eab3dfb"><div class="ttname"><a href="classDonjon.html#abef394a07994262d7cd512a80eab3dfb">Donjon::Donjon</a></div><div class="ttdeci">Donjon()</div><div class="ttdoc">Constructeur par défaut. </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:12</div></div>
+<div class="ttc" id="classDonjon_html_a14ee54cc631289310c622540c2cda199"><div class="ttname"><a href="classDonjon.html#a14ee54cc631289310c622540c2cda199">Donjon::getNbEtagesParcourus</a></div><div class="ttdeci">unsigned int getNbEtagesParcourus() const</div><div class="ttdoc">Fonction: Retourne le nombre d&amp;#39;étages parcourus. </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:67</div></div>
+<div class="ttc" id="classDonjon_html_ab9eb0d68d0df634cbeb931473cc31ffc"><div class="ttname"><a href="classDonjon.html#ab9eb0d68d0df634cbeb931473cc31ffc">Donjon::getNom</a></div><div class="ttdeci">string getNom() const</div><div class="ttdoc">Fonction: Retourne le nom du Donjon. </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:38</div></div>
+<div class="ttc" id="classDonjon_html_aa5353e928754eedad69de4c14ad19935"><div class="ttname"><a href="classDonjon.html#aa5353e928754eedad69de4c14ad19935">Donjon::getEtage</a></div><div class="ttdeci">const Etage &amp; getEtage(const unsigned int i) const</div><div class="ttdoc">Fonction: Retourne l&amp;#39;étage demandé </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:45</div></div>
+<div class="ttc" id="classDonjon_html_adaf17f262a479ab2ce8e35ef48f8c157"><div class="ttname"><a href="classDonjon.html#adaf17f262a479ab2ce8e35ef48f8c157">Donjon::getEtageActifOriginal</a></div><div class="ttdeci">Etage &amp; getEtageActifOriginal()</div><div class="ttdoc">Fonction: Retourne l&amp;#39;étage actif. </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:59</div></div>
+<div class="ttc" id="ListeTypesEnnemis_8h_html"><div class="ttname"><a href="ListeTypesEnnemis_8h.html">ListeTypesEnnemis.h</a></div><div class="ttdoc">Fichier en-tête d&amp;#39;une liste de TypeEnnemi. </div></div>
+<div class="ttc" id="classDonjon_html_a868c243fbaa68f2da220c91bb7e32e8e"><div class="ttname"><a href="classDonjon.html#a868c243fbaa68f2da220c91bb7e32e8e">Donjon::getEtageOriginal</a></div><div class="ttdeci">Etage &amp; getEtageOriginal(const unsigned int i)</div><div class="ttdoc">Fonction: Retourne l&amp;#39;étage demandé </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:54</div></div>
+<div class="ttc" id="structListeCases_html"><div class="ttname"><a href="structListeCases.html">ListeCases</a></div><div class="ttdoc">Comprend les caractéristiques d&amp;#39;une liste de Case. </div><div class="ttdef"><b>Definition:</b> ListeCases.h:13</div></div>
+<div class="ttc" id="classDonjon_html_a24a730ec71daad25b5ce79bccc10797d"><div class="ttname"><a href="classDonjon.html#a24a730ec71daad25b5ce79bccc10797d">Donjon::getNbEtages</a></div><div class="ttdeci">unsigned int getNbEtages() const</div><div class="ttdoc">Fonction: Retourne le nombre d&amp;#39;étages. </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:63</div></div>
+<div class="ttc" id="ListeObjets_8h_html"><div class="ttname"><a href="ListeObjets_8h.html">ListeObjets.h</a></div><div class="ttdoc">Fichier en-tête d&amp;#39;une liste d&amp;#39;Objet. </div></div>
+<div class="ttc" id="classDonjon_html_abe40dcef2369d3e84b2298b0ad019988"><div class="ttname"><a href="classDonjon.html#abe40dcef2369d3e84b2298b0ad019988">Donjon::augmenterNbEtagesParcourus</a></div><div class="ttdeci">void augmenterNbEtagesParcourus()</div><div class="ttdoc">Procédure: Incrémente le nombre d&amp;#39;étages parcourus. </div><div class="ttdef"><b>Definition:</b> Donjon.cpp:71</div></div>
+<div class="ttc" id="classEtage_html"><div class="ttname"><a href="classEtage.html">Etage</a></div><div class="ttdoc">La classe Etage qui contient des Case. </div><div class="ttdef"><b>Definition:</b> Etage.h:35</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

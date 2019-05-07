@@ -1,0 +1,304 @@
+\hypertarget{classEnnemi}{}\section{Référence de la classe Ennemi}
+\label{classEnnemi}\index{Ennemi@{Ennemi}}
+
+
+La classe \mbox{\hyperlink{classEnnemi}{Ennemi}}.  
+
+
+
+
+{\ttfamily \#include $<$Ennemi.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEnnemi_a9c5eb7ca82848b97f3dcf262fe625b3a}\label{classEnnemi_a9c5eb7ca82848b97f3dcf262fe625b3a}} 
+\mbox{\hyperlink{classEnnemi_a9c5eb7ca82848b97f3dcf262fe625b3a}{Ennemi}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEnnemi_a1c72587b923538f5499ccd81e13651a5}{Ennemi}} (const \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}} \&t, const unsigned int niveau, const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&lcomp)
+\begin{DoxyCompactList}\small\item\em Constructeur par copie. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEnnemi_adf402a9389efe705c604f91d6e74d00e}{$\sim$\+Ennemi}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classEnnemi_a7d6bedb6cf6b7564816a9957812e5b67}{getX}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la coordonnée X de l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classEnnemi_af30deadaf8e569d3f82c716bf463791f}{getY}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la coordonnée Y de l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classEnnemi_a950afe7b7e0bc6b5b9d184b08805f1af}{get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne la direction. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classEnnemi_a84cb0911005eb3a3775e64b04a744e87}{get\+Niveau}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le niveau de l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classEnnemi_a3122b2cdbe87622758a576ca17ee15be}{get\+Exp\+Donnee}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le nombre de points d\textquotesingle{}expérience donnés quand l\textquotesingle{}ennemi est vaincu. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}} \& \mbox{\hyperlink{classEnnemi_ac11c0baf4e19f8359da983360f1d6766}{get\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le type de l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structStats}{Stats}} \& \mbox{\hyperlink{classEnnemi_a6d8d8be2e6e98b036d7256ec733190ba}{get\+Stats}} () const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne les statistiques de l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structCompetence}{Competence}} $\ast$ \mbox{\hyperlink{classEnnemi_a9c7e7595dc73c4f21c0693a54cac4d7f}{get\+Competence}} (const unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Fonction\+: Retourne le pointeur d\textquotesingle{}une compétence de l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnnemi_abd07d8cc39e2a2922813a5023207db49}\label{classEnnemi_abd07d8cc39e2a2922813a5023207db49}} 
+bool {\bfseries peut\+Utiliser\+Ieme\+Competence} (unsigned int i) const
+\item 
+void \mbox{\hyperlink{classEnnemi_ab4f1579490463c3e74ccdf0940247839}{set\+Coordonnees}} (const unsigned int x, const unsigned int y)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Positionne l\textquotesingle{}ennemi via les coordonnées passées en paramètres. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEnnemi_af263d9340ad6eaa37910a14d06c4ea93}{set\+Direction}} (const unsigned int dir)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Oriente l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnnemi_add83496f7fb51ec062e3b9ed1b9a301e}\label{classEnnemi_add83496f7fb51ec062e3b9ed1b9a301e}} 
+void \mbox{\hyperlink{classEnnemi_add83496f7fb51ec062e3b9ed1b9a301e}{avancer}} ()
+\begin{DoxyCompactList}\small\item\em Procédure\+: Fait avancer l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnnemi_a9e0a57618e068224b520f0c9c6054516}\label{classEnnemi_a9e0a57618e068224b520f0c9c6054516}} 
+\mbox{\hyperlink{structCompetence}{Competence}} $\ast$ {\bfseries choix\+Competence\+Aleatoire} () const
+\item 
+unsigned int \mbox{\hyperlink{classEnnemi_a44b78c61a2488e440387460470a67fd0}{subir\+Degats}} (const unsigned int degats)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Retire les dommages reçus aux points de vie de l\textquotesingle{}ennemi. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnnemi_aa6608048d84720f0a4fd8215304f54e6}\label{classEnnemi_aa6608048d84720f0a4fd8215304f54e6}} 
+void {\bfseries soin\+Pv\+Mana} (const unsigned int gain\+Pv, const unsigned int gain\+Mana)
+\item 
+\mbox{\Hypertarget{classEnnemi_abebfdb3e2be970188cf71d3be0d873ef}\label{classEnnemi_abebfdb3e2be970188cf71d3be0d873ef}} 
+void {\bfseries payer\+Cout\+Mana} (const unsigned int cout)
+\item 
+void \mbox{\hyperlink{classEnnemi_af220e54450dcf0fd190d59d620f88180}{modif\+Buff\+Atk\+Def}} (const int buff\+Atk, const int buff\+Def)
+\begin{DoxyCompactList}\small\item\em Procédure\+: Applique les bonus/malus d\textquotesingle{}attaque et de défense passés en paramètres. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classEnnemi}{Ennemi}} \& \mbox{\hyperlink{classEnnemi_ada6e2dff6738521d2c8150e4b7164aee}{operator=}} (const \mbox{\hyperlink{classEnnemi}{Ennemi}} \&ennemi)
+\begin{DoxyCompactList}\small\item\em Opérateur\+: Surcharge de l\textquotesingle{}opérateur =. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \mbox{\hyperlink{classEnnemi}{Ennemi}}. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classEnnemi_a1c72587b923538f5499ccd81e13651a5}\label{classEnnemi_a1c72587b923538f5499ccd81e13651a5}} 
+\index{Ennemi@{Ennemi}!Ennemi@{Ennemi}}
+\index{Ennemi@{Ennemi}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{Ennemi()}{Ennemi()}}
+{\footnotesize\ttfamily Ennemi\+::\+Ennemi (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}} \&}]{t,  }\item[{const unsigned int}]{niveau,  }\item[{const \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \&}]{lcomp }\end{DoxyParamCaption})}
+
+
+
+Constructeur par copie. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em t} & un \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}} \\
+\hline
+\mbox{\tt in}  & {\em niveau} & un unsigned int \\
+\hline
+\mbox{\tt in}  & {\em lcomp} & un \mbox{\hyperlink{structListeCompetences}{Liste\+Competences}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEnnemi_adf402a9389efe705c604f91d6e74d00e}\label{classEnnemi_adf402a9389efe705c604f91d6e74d00e}} 
+\index{Ennemi@{Ennemi}!````~Ennemi@{$\sim$\+Ennemi}}
+\index{````~Ennemi@{$\sim$\+Ennemi}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{$\sim$\+Ennemi()}{~Ennemi()}}
+{\footnotesize\ttfamily Ennemi\+::$\sim$\+Ennemi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructeur. 
+
+Destructeur de la classe \mbox{\hyperlink{classEnnemi}{Ennemi}}. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classEnnemi_a9c7e7595dc73c4f21c0693a54cac4d7f}\label{classEnnemi_a9c7e7595dc73c4f21c0693a54cac4d7f}} 
+\index{Ennemi@{Ennemi}!get\+Competence@{get\+Competence}}
+\index{get\+Competence@{get\+Competence}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{get\+Competence()}{getCompetence()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structCompetence}{Competence}} $\ast$ Ennemi\+::get\+Competence (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le pointeur d\textquotesingle{}une compétence de l\textquotesingle{}ennemi. 
+
+L\textquotesingle{}indice de la compétence à retourner est passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & un unsigned int, indice de la compétence à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un pointeur vers une \mbox{\hyperlink{structCompetence}{Competence}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnnemi_a950afe7b7e0bc6b5b9d184b08805f1af}\label{classEnnemi_a950afe7b7e0bc6b5b9d184b08805f1af}} 
+\index{Ennemi@{Ennemi}!get\+Direction@{get\+Direction}}
+\index{get\+Direction@{get\+Direction}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{get\+Direction()}{getDirection()}}
+{\footnotesize\ttfamily unsigned int Ennemi\+::get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la direction. 
+
+Chaque nombre correspond à une direction ~\newline
+ Nord = 1 ~\newline
+ Est = 2 ~\newline
+ Sud = 3 ~\newline
+ Ouest = 4 ~\newline
+ \begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnnemi_a3122b2cdbe87622758a576ca17ee15be}\label{classEnnemi_a3122b2cdbe87622758a576ca17ee15be}} 
+\index{Ennemi@{Ennemi}!get\+Exp\+Donnee@{get\+Exp\+Donnee}}
+\index{get\+Exp\+Donnee@{get\+Exp\+Donnee}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{get\+Exp\+Donnee()}{getExpDonnee()}}
+{\footnotesize\ttfamily unsigned int Ennemi\+::get\+Exp\+Donnee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le nombre de points d\textquotesingle{}expérience donnés quand l\textquotesingle{}ennemi est vaincu. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnnemi_a84cb0911005eb3a3775e64b04a744e87}\label{classEnnemi_a84cb0911005eb3a3775e64b04a744e87}} 
+\index{Ennemi@{Ennemi}!get\+Niveau@{get\+Niveau}}
+\index{get\+Niveau@{get\+Niveau}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{get\+Niveau()}{getNiveau()}}
+{\footnotesize\ttfamily unsigned int Ennemi\+::get\+Niveau (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le niveau de l\textquotesingle{}ennemi. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnnemi_a6d8d8be2e6e98b036d7256ec733190ba}\label{classEnnemi_a6d8d8be2e6e98b036d7256ec733190ba}} 
+\index{Ennemi@{Ennemi}!get\+Stats@{get\+Stats}}
+\index{get\+Stats@{get\+Stats}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{get\+Stats()}{getStats()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structStats}{Stats}} \& Ennemi\+::get\+Stats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne les statistiques de l\textquotesingle{}ennemi. 
+
+\begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{structStats}{Stats}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnnemi_ac11c0baf4e19f8359da983360f1d6766}\label{classEnnemi_ac11c0baf4e19f8359da983360f1d6766}} 
+\index{Ennemi@{Ennemi}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{get\+Type()}{getType()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}} \& Ennemi\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne le type de l\textquotesingle{}ennemi. 
+
+Par exemple un blob, un gobelin, une chauve-\/souris, etc. \begin{DoxyReturn}{Renvoie}
+Un \mbox{\hyperlink{structTypeEnnemi}{Type\+Ennemi}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnnemi_a7d6bedb6cf6b7564816a9957812e5b67}\label{classEnnemi_a7d6bedb6cf6b7564816a9957812e5b67}} 
+\index{Ennemi@{Ennemi}!getX@{getX}}
+\index{getX@{getX}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily unsigned int Ennemi\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la coordonnée X de l\textquotesingle{}ennemi. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnnemi_af30deadaf8e569d3f82c716bf463791f}\label{classEnnemi_af30deadaf8e569d3f82c716bf463791f}} 
+\index{Ennemi@{Ennemi}!getY@{getY}}
+\index{getY@{getY}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily unsigned int Ennemi\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fonction\+: Retourne la coordonnée Y de l\textquotesingle{}ennemi. 
+
+\begin{DoxyReturn}{Renvoie}
+Un unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnnemi_af220e54450dcf0fd190d59d620f88180}\label{classEnnemi_af220e54450dcf0fd190d59d620f88180}} 
+\index{Ennemi@{Ennemi}!modif\+Buff\+Atk\+Def@{modif\+Buff\+Atk\+Def}}
+\index{modif\+Buff\+Atk\+Def@{modif\+Buff\+Atk\+Def}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{modif\+Buff\+Atk\+Def()}{modifBuffAtkDef()}}
+{\footnotesize\ttfamily void Ennemi\+::modif\+Buff\+Atk\+Def (\begin{DoxyParamCaption}\item[{const int}]{buff\+Atk,  }\item[{const int}]{buff\+Def }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Applique les bonus/malus d\textquotesingle{}attaque et de défense passés en paramètres. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em buff\+Atk} & un int, le bonus/malus d\textquotesingle{}attaque à appliquer \\
+\hline
+\mbox{\tt in}  & {\em buff\+Def} & un int, le bonus/malus de défense à appliquer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEnnemi_ada6e2dff6738521d2c8150e4b7164aee}\label{classEnnemi_ada6e2dff6738521d2c8150e4b7164aee}} 
+\index{Ennemi@{Ennemi}!operator=@{operator=}}
+\index{operator=@{operator=}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classEnnemi}{Ennemi}} \& Ennemi\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classEnnemi}{Ennemi}} \&}]{ennemi }\end{DoxyParamCaption})}
+
+
+
+Opérateur\+: Surcharge de l\textquotesingle{}opérateur =. 
+
+Initalise l\textquotesingle{}ennemi par copie de celui passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em ennemi} & un \mbox{\hyperlink{classEnnemi}{Ennemi}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEnnemi_ab4f1579490463c3e74ccdf0940247839}\label{classEnnemi_ab4f1579490463c3e74ccdf0940247839}} 
+\index{Ennemi@{Ennemi}!set\+Coordonnees@{set\+Coordonnees}}
+\index{set\+Coordonnees@{set\+Coordonnees}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{set\+Coordonnees()}{setCoordonnees()}}
+{\footnotesize\ttfamily void Ennemi\+::set\+Coordonnees (\begin{DoxyParamCaption}\item[{const unsigned int}]{x,  }\item[{const unsigned int}]{y }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Positionne l\textquotesingle{}ennemi via les coordonnées passées en paramètres. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em x} & un unsigned int, abscisse à appliquer \\
+\hline
+\mbox{\tt in}  & {\em y} & un unsigned int, ordonnée à appliquer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEnnemi_af263d9340ad6eaa37910a14d06c4ea93}\label{classEnnemi_af263d9340ad6eaa37910a14d06c4ea93}} 
+\index{Ennemi@{Ennemi}!set\+Direction@{set\+Direction}}
+\index{set\+Direction@{set\+Direction}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{set\+Direction()}{setDirection()}}
+{\footnotesize\ttfamily void Ennemi\+::set\+Direction (\begin{DoxyParamCaption}\item[{const unsigned int}]{dir }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Oriente l\textquotesingle{}ennemi. 
+
+La direction à appliquer est donner par un nombre passé en paramètre. ~\newline
+Nord = 1 ~\newline
+Est = 2 ~\newline
+Sud = 3 ~\newline
+Ouest = 4 ~\newline
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em dir} & un unsigned int, indique la direction à appliquer à l\textquotesingle{}ennemi \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEnnemi_a44b78c61a2488e440387460470a67fd0}\label{classEnnemi_a44b78c61a2488e440387460470a67fd0}} 
+\index{Ennemi@{Ennemi}!subir\+Degats@{subir\+Degats}}
+\index{subir\+Degats@{subir\+Degats}!Ennemi@{Ennemi}}
+\subsubsection{\texorpdfstring{subir\+Degats()}{subirDegats()}}
+{\footnotesize\ttfamily void Ennemi\+::subir\+Degats (\begin{DoxyParamCaption}\item[{const unsigned int}]{degats }\end{DoxyParamCaption})}
+
+
+
+Procédure\+: Retire les dommages reçus aux points de vie de l\textquotesingle{}ennemi. 
+
+Le nombre de dommages reçus est passé en paramètre. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em degats} & un unsigned int, le nombre de dégâts à appliquer à l\textquotesingle{}ennemi \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Ennemi_8h}{Ennemi.\+h}}\item 
+/home/etu/p1709958/\+Git\+L\+I\+F\+A\+P4/donjon/\+Ya\+Ju\+Go/src/core/\mbox{\hyperlink{Ennemi_8cpp}{Ennemi.\+cpp}}\end{DoxyCompactItemize}

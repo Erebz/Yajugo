@@ -1,0 +1,14 @@
+7
+[Petite potion de vie;Une etrange mixture qui soigne legerement les blessures (+30 PV).; 30 ; 0 ; 0 ; 0 ]
+
+[Petite potion de Mana;Une etrange mixture qui ravive legerement la magie (+20 PM).; 0 ; 20 ; 0 ; 0 ]
+
+[Petale de combativite;Une petale de fleur qui augmente legerement l'attaque.; 0 ; 0 ; 1 ; 0 ]
+
+[Fleur de combativite;Une fleur mystique qui augmente l'attaque.; 0 ; 0 ; 2 ; 0 ]
+
+[Petale de courage;Une petale de fleur qui augmente legerement la defense.; 0 ; 0 ; 0 ; 1 ]
+
+[Fleur de courage;Une fleur mystique qui augmente la defense.; 0 ; 0 ; 0 ; 2 ]
+
+[Bouquet de fleur sacre;Un bouquet de fleurs divines augmentant énormément l'attaque et la defense.; 0 ; 0 ; 3 ; 3 ]

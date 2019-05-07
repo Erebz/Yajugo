@@ -1,0 +1,67 @@
+22
+
+//Case pleine;
+[0;0;█]
+
+//Mur Nord-Ouest;
+[1;0;╔]
+
+//Mur Nord;
+[2;0;═]
+
+//Mur Nord-Est;
+[3;0;╗]
+
+//Mur Ouest;
+[4;0;║]
+
+//Sol;
+[5;1;.]
+
+//Mur Est;
+[6;0;║]
+
+//Mur Sud-Ouest;
+[7;0;╚]
+
+//Mur Sud;
+[8;0;═]
+
+//Mur Sud-Est;
+[9;0;╝]
+
+//Escalier;
+[10;1;E]
+
+//Mur Couloir Nord Ouest;
+[11;0;╚]
+
+//Mur Couloir Nord Est;
+[12;0;╝]
+
+//Mur Couloir Sud Ouest;
+[13;0;╔]
+
+//Mur Couloir Sud Est;
+[14;0;╗]
+
+//Mur en U (^);
+[15;0;║]
+
+//Mur en U (||);
+[16;0;║]
+
+//Mur en U (v);
+[17;0;║]
+
+//Mur en U (<);
+[18;0;═]
+
+//Mur en U (=);
+[19;0;═]
+
+//Mur en U (>);
+[20;0;═]
+
+//Exception mur carre;
+[21;0;╬]
